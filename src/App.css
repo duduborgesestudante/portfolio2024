@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+}
+
+.nav-div {
+    height: 100vh;
+    width: 60%;
+    background-color: blue;
+
+}
+
+.close-nav {
+    width: 100vw;
+    background-color: blue;
+
+}
+
+.nav-div p {
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.div-nav {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 3rem;
+}
+
+.home {
+    mar
+}
