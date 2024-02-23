@@ -6,16 +6,10 @@ import { IoIosMenu, IoMdClose } from "react-icons/io";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 function App() {
 
-  const [sobre, setSobre] = useState(false)
+ 
   const [nav, setNav] = useState(false)
 
-  function abrirSobre() {
-    if (sobre) {
-      setSobre(false)
-    } else {
-      setSobre(true)
-    }
-  }
+ 
 
   function abrirNav() {
     if (nav) {
@@ -48,7 +42,8 @@ function App() {
           ) : (
             <>
               <div className='div-nav'>
-                <IoIosMenu className='animate__pulse animate__animated' color='white' onClick={abrirNav} size={40} />
+                <IoIosMenu className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
+                <h1>Portfólio</h1>
               </div>
             </>)}
         </nav>
@@ -56,7 +51,10 @@ function App() {
       <main>
         <section className='home'>
           <div>
-            <h1 className='animate__animated animate__bounce'>Eduardo Borges</h1>
+            <figure>
+            <img src="https://avatars.githubusercontent.com/u/84474594?v=4" className='minha-foto' alt="" />
+            </figure>
+            <h1 className='animate__animated animate__bounce'>Eduardo <span>Borges</span> </h1>
             <h3><TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially
@@ -70,30 +68,31 @@ function App() {
               style={{ fontSize: '2em' }}
             /></h3>
           </div>
-          <div>
-            <button onClick={abrirSobre}>Um pouco mais sobre mim</button>
-            {sobre ? (
-              <>
+          <div className='sobremim'>
+           
+           
                 <div>
+                  <h2>Sobre <span>mim</span> </h2>
                   <p>
-                    <strong>Expectativas e intenções quanto a sua formação geral e profissional;</strong>
-                    <strong>ideias, motivações, opiniões acerca de experiências, vivências artístico culturais e no mundo do trabalho;</strong>
+                    Minhas expectativas quanto a minha formação é eu me formar ensino médio e concluir o curso técnico
+                     em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React. 
+                    Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
+                    sou muito novo e tenho um potencial muito grande de evolução
                     <strong>Reflexões críticas acerca de sua inserção, interação e participação na vida social, em geral. </strong>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laudantium?
                     Quia ratione quo sint eius vel blanditiis, animi nulla delectus sed omnis alias
                     velit saepe a ullam? Enim, incidunt recusandae.</p>
                 </div>
-              </>
-            ) : null}
+            
           </div>
         </section>
 
       </main >
       <footer>
         <p className='foot'>
-          Eduardo Borges &copy;
-          <a href=""><FaGithub /></a>
-          <a href=""><FaLinkedin color='blue' /></a>
+          Eduardo Borges &copy;&nbsp;
+          <a target='_blank' href="https://github.com/duduborges"><FaGithub /></a> &nbsp;
+          <a target='_blank' href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/"><FaLinkedin color='blue' /></a>
         </p>
 
       </footer>
