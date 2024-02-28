@@ -8,8 +8,13 @@ function App() {
 
  
   const [nav, setNav] = useState(false)
-
+  const [isNavVisible, setIsNavVisible] = useState(false)
  
+  function togleNav(){
+    setNav(true)
+    setIsNavVisible(!isNavVisible)
+  }
+
 
   function abrirNav() {
     if (nav) {
@@ -23,30 +28,42 @@ function App() {
   return (
     <>
       <header>
+     
         <nav>
+
           {nav ? (
             <>
 
 
+
               <div className='close-nav'>
-                <IoMdClose className='animate__pulse animate__animated' color='white' onClick={abrirNav} size={40} />
+                <IoMdClose className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
+                <h2>Portfólio</h2>
+
               </div>
-              <div className='nav-div'>
-                <a href=""><p>Portfolio 2023</p></a>
-                <a href=""><p>Primeiro Trimestre 2024</p></a>
+              <div className='nav-div animate__animated animate__slideInLeft animate__faster'>
+                <a href="https://porfolio-segundo-ano.netlify.app/"><p>Portfolio 2023</p></a>
+                <a href="/"><p>Primeiro Trimestre 2024</p></a>
                 <a href=""><p>Segundo Trimestre 2024</p></a>
                 <a href=""><p>Terceiro Trimestre 2024</p></a>
+                <div className='nav-icons'>
+                    <a target='_blank' className='github'  href="https://github.com/duduborges"><FaGithub size={40} color='black'  /></a> &nbsp;
+                     <a target='_blank'  href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/"><FaLinkedin   size={40} color='blue' /></a>
+                </div>
               </div>
+              
 
             </>
           ) : (
             <>
               <div className='div-nav'>
                 <IoIosMenu className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
-                <h1>Portfólio</h1>
+                <h2>Portfólio</h2>
               </div>
             </>)}
+
         </nav>
+        
       </header>
       <main>
         <section className='home'>
