@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Pacifico&display=swap');
 nav {
     display: flex;
@@ -15,11 +16,13 @@ nav {
 .nav-div {
     height: 100vh;
     width: 60%;
+    position: fixed;
+    top: 3.46rem;
     background-color: rgb(243, 20, 20);
 
 }
 .nav-icons{
-    filter: drop-shadow(1px 1px 5px  white);
+    
     height: 65%;
     display: flex;
     flex-direction: row;
@@ -85,9 +88,14 @@ footer{
     background: #000;
     color: white;
     height: 50px;
+    
 }
 .open-nav{
     position: fixed;
+}
+.dowload-curriculo{
+    position: fixed;
+    right: 0;
 }
 .minha-foto{
     box-shadow: 1px 1px 10px 3px black;

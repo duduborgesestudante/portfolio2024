@@ -2,15 +2,16 @@ import 'animate.css';
 import './App.css'
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
-import { IoIosMenu, IoMdClose } from "react-icons/io";
+import { IoIosDownload, IoIosMenu, IoMdClose, IoMdDownload } from "react-icons/io";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Carousel } from 'flowbite-react';
 function App() {
 
- 
+
   const [nav, setNav] = useState(false)
   const [isNavVisible, setIsNavVisible] = useState(false)
- 
-  function togleNav(){
+
+  function togleNav() {
     setNav(true)
     setIsNavVisible(!isNavVisible)
   }
@@ -28,7 +29,7 @@ function App() {
   return (
     <>
       <header>
-     
+
         <nav>
 
           {nav ? (
@@ -39,6 +40,8 @@ function App() {
               <div className='close-nav'>
                 <IoMdClose className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
                 <h2>Portfólio</h2>
+                <IoMdDownload color='white' alt="Curriculo" className='dowload-curriculo' size={40} />
+                  
 
               </div>
               <div className='nav-div animate__animated animate__slideInLeft animate__faster'>
@@ -47,11 +50,11 @@ function App() {
                 <a href=""><p>Segundo Trimestre 2024</p></a>
                 <a href=""><p>Terceiro Trimestre 2024</p></a>
                 <div className='nav-icons'>
-                    <a target='_blank' className='github'  href="https://github.com/duduborges"><FaGithub size={40} color='black'  /></a> &nbsp;
-                     <a target='_blank'  href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/"><FaLinkedin   size={40} color='blue' /></a>
+                  <a target='_blank' href="https://github.com/duduborges"><FaGithub size={40} color='black' /></a> &nbsp;
+                  <a target='_blank' href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/"><FaLinkedin size={40} color='blue' /></a>
                 </div>
               </div>
-              
+
 
             </>
           ) : (
@@ -59,17 +62,18 @@ function App() {
               <div className='div-nav'>
                 <IoIosMenu className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
                 <h2>Portfólio</h2>
+                <IoMdDownload color='white' alt="Curriculo" className='dowload-curriculo' size={40} />
               </div>
             </>)}
 
         </nav>
-        
+
       </header>
       <main>
         <section className='home'>
           <div>
             <figure>
-            <img src="https://avatars.githubusercontent.com/u/84474594?v=4" className='minha-foto' alt="" />
+              <img src="https://avatars.githubusercontent.com/u/84474594?v=4" className='minha-foto' alt="" />
             </figure>
             <h1 className='animate__animated animate__bounce'>Eduardo <span>Borges</span> </h1>
             <h3><TypeAnimation
@@ -86,27 +90,29 @@ function App() {
             /></h3>
           </div>
           <div className='sobremim'>
-           
-           
-                <div>
-                  <h2>Sobre <span>mim</span> </h2>
-                  <p>
-                    Minhas expectativas quanto a minha formação é eu me formar ensino médio e concluir o curso técnico
-                     em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React. 
-                    Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
-                    sou muito novo e tenho um potencial muito grande de evolução
-                    <strong>Reflexões críticas acerca de sua inserção, interação e participação na vida social, em geral. </strong>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laudantium?
-                    Quia ratione quo sint eius vel blanditiis, animi nulla delectus sed omnis alias
-                    velit saepe a ullam? Enim, incidunt recusandae.</p>
-                </div>
-            
+
+
+            <div>
+              <h2>Sobre <span>mim</span> </h2>
+              <p>
+                Minhas expectativas quanto a minha formação é eu me formar ensino médio e concluir o curso técnico
+                em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React.
+                Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
+                sou muito novo e tenho um potencial muito grande de evolução
+                <strong>Reflexões críticas acerca de sua inserção, interação e participação na vida social, em geral. </strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laudantium?
+                Quia ratione quo sint eius vel blanditiis, animi nulla delectus sed omnis alias
+                velit saepe a ullam? Enim, incidunt recusandae.</p>
+            </div>
+
           </div>
+
         </section>
 
       </main >
+
       <footer>
-        <p className='foot'>
+        <p className='foot '>
           Eduardo Borges &copy;&nbsp;
           <a target='_blank' href="https://github.com/duduborges"><FaGithub /></a> &nbsp;
           <a target='_blank' href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/"><FaLinkedin color='blue' /></a>
