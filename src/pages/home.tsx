@@ -1,12 +1,11 @@
 import 'animate.css';
-import './App.css'
+import '../App.css'
 import { TypeAnimation } from 'react-type-animation';
 import { Header } from './header';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
+
 function Home() {
-
-
 
   return (
     <>
@@ -34,8 +33,8 @@ function Home() {
 
 
             <div>
-              <h2>Sobre <span>mim</span> </h2>
-              <p>
+              <h2 className=''>Sobre <span>mim</span> </h2>
+              <p className=''>
                 Minhas expectativas quanto a minha formação é eu me formar ensino médio e concluir o curso técnico
                 em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React.
                 Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
@@ -44,7 +43,7 @@ function Home() {
             </div>
 
           </div>
-
+          
         </section>
 
       </main >
@@ -52,10 +51,10 @@ function Home() {
       <footer>
         <p className='foot '>
           <a target='_blank' href="https://github.com/duduborges"><FaGithub size={25} /></a>
-          <a >Eduardo Borges &copy;</a>
+          <a className='tex' >Eduardo Borges &copy;</a>
           <a target='_blank' href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/">< FaLinkedin size={25} color='blue' /></a>
         </p>
-
+            
       </footer>
     </>
   )

@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { IoIosDownload, IoIosMenu, IoMdClose, IoMdDownload } from "react-icons/io";
+import {  IoIosMenu, IoMdClose, IoMdDownload } from "react-icons/io";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header(){
-    
+    const navigate = useNavigate()
   const [nav, setNav] = useState(false)
   const [isNavVisible, setIsNavVisible] = useState(false)
 
@@ -11,7 +12,9 @@ function Header(){
     setNav(true)
     setIsNavVisible(!isNavVisible)
   }
-
+  function paginicial(){
+    navigate("/")
+  }
 
   function abrirNav() {
     if (nav) {
@@ -33,9 +36,9 @@ function Header(){
 
               <div className='close-nav'>
                 <IoMdClose className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
-                <h2>Portfólio</h2>
+               <h2 onClick={paginicial}>Portfólio</h2> 
                 <a href="curriculo.pdf" target="_blank" className='download'  >
-                <IoMdDownload  color='white' alt="Curriculo"  size={40} />
+                <IoMdDownload  color='white'   size={40} />
                 </a>
                 
 
@@ -59,9 +62,9 @@ function Header(){
             <>
               <div className='div-nav'>
                 <IoIosMenu className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
-                <h2>Portfólio</h2>
+                <h2 onClick={paginicial}>Portfólio</h2>
                 <a href="curriculo.pdf" target="_blank" className='download'  >
-                <IoMdDownload  color='white' alt="Curriculo"  size={40} />
+                <IoMdDownload  color='white'  size={40} />
                 </a>
               </div>
             </>)}

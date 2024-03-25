@@ -60,7 +60,7 @@ a {
     align-items: center;
 }
 .div-nav h2{
-    
+    user-select: none;
     text-align: center;
     margin: auto;
     color: white;
@@ -69,7 +69,7 @@ a {
     text-shadow: 1px 1px 30px wheat;
 }
 .close-nav h2{
-    
+    user-select: none;
     text-align: center;
     margin: auto;
     color: white;
@@ -157,10 +157,12 @@ main h3{
 
 }
 .sobremim h2 {
+    user-select: none;
     font-size: xx-large;
     color: red;
     margin: 10px 0;
 }
 h2 span{
+    user-select: none;
     color: black;
 }
