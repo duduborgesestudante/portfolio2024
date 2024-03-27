@@ -1,7 +1,8 @@
 function TerceiroTri(){
     return(
         <>
-        <h1>é us guri</h1>
+                <h4>NÃO ESTÁ PRONTO NEM INICIADO AINDA</h4>
+
         </>
     )
 }

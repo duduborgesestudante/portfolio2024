@@ -1,15 +1,15 @@
 import { Header } from "../components/header"
 
-function Modelagem1() {
+function Linguagens1() {
     return (
         <>
        <Header/>
        <main>
             <section>
-                <h1>Modelagem d<span>e Sistemas</span></h1>
+                <h1>Linguagens</h1>
             </section>
         </main>
        </>
     )
 }
-export { Modelagem1 }
+export { Linguagens1 }

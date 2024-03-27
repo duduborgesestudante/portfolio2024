@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import Home from './pages/home'
+import Home from './pages/components/home1'
 import { PrimeiroTri } from "./pages/PrimeiroTri"
 import { SegundoTri } from "./pages/SegundoTri"
 import { TerceiroTri } from "./pages/TerceiroTri"
@@ -8,15 +8,12 @@ import { Modelagem1 } from "./pages/materias/modelagem1"
 import { Desi1 } from "./pages/materias/desi1"
 import { Matematica1 } from "./pages/materias/matematica"
 import { Natureza1 } from "./pages/materias/natureza1"
-import { Linguagens1 } from "./pages/materias/linguagens"
+import { Linguagens1 } from "./pages/materias/linguagens1"
 import { Humanas1 } from "./pages/materias/humanas1"
 const router = createBrowserRouter([
+ 
   {
     path: '/',
-    element: <Home />,
-  },
-  {
-    path: '/primeiro',
     element: <PrimeiroTri />,
   },
   {
@@ -52,7 +49,7 @@ const router = createBrowserRouter([
     element: <Modelagem1 />,
   },
   {
-    path: '/mantencao1',
+    path: '/manutencao1',
     element: <Manutencao />,
   },
 

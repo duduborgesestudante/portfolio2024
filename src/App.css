@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
 nav {
     display: flex;
     flex-direction: column;
@@ -8,17 +8,36 @@ nav {
     width: 100%;
     margin-bottom: 30px;
 }
-
+body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
 * {
+    
     margin: 0;
 }
+.title-materia{
+    font-size: x-large;
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    color: black ;
+}
+.title-materia span{
+    color: red ;
 
+}
+.little-materia{
+    width: 90%;
+    margin: auto;
+    opacity: 70%;
+    font-size: 8px;
+}
 .carrosselimg-group {
     display: flexbox;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    padding-top: 20px;
     height: 250px;
 }
 
@@ -44,7 +63,7 @@ nav {
     width: 60%;
     position: fixed;
     top: 3.46rem;
-    background-color: rgb(243, 20, 20);
+    background-color: gray;
 
 }
 
@@ -63,7 +82,7 @@ nav {
     display: flex;
     width: 100vw;
     height: 3.5rem;
-    background-color: rgb(243, 20, 20);
+    background-color: gray;
 
 }
 
@@ -81,7 +100,8 @@ a {
 
 .div-nav {
     width: 100%;
-    background-color: rgb(243, 20, 20);
+    background-color: gray;
+
     display: flex;
     flex-direction: row;
     height: 3.5rem;

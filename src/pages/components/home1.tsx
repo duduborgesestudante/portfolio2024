@@ -1,5 +1,5 @@
 import 'animate.css';
-import '../App.css'
+import '../../App.css'
 import { TypeAnimation } from 'react-type-animation';
 import { Header } from './header';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -10,14 +10,11 @@ import { MdScience } from 'react-icons/md';
 import { GrSystem } from 'react-icons/gr';
 import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
-import { useNavigate } from 'react-router-dom';
+import { GoFileCode } from 'react-icons/go';
 
-function Home() {
-  const navigate = useNavigate()
+function Home1() {
 
-  function irpara(pag: string) {
-    navigate(pag)
-  }
+
 
   return (
     <>
@@ -55,71 +52,84 @@ function Home() {
             </div>
 
           </div>
-
           <div>
+            <p className='title-materia'>Atividades por <span>matéria</span></p>
+            <p className='little-materia'>(CLIQUE NA CAIXA PARA IR PARA A PÁGINA DE ATIVIDADES)</p>
+          </div>
+          <div>
+
             <Carousel className='carrosselimg-group' show={2} draggable={true} swipeable={true} infinite={false} slide={2} swiping={true}>
-              <div className='carrosselimg'>
-                <div>
-
-                  <GiCarpetBombing onClick={irpara("/humanas1")} size={30} />
-                  <p>Humanas</p>
-
+              <a href="/humanas1">
+                <div className='carrosselimg'>
+                  <div>
+                    <GiCarpetBombing color='orange' size={30} />
+                    <p>Humanas</p>
+                  </div>
                 </div>
-              </div>
+              </a>
+              <a href="/matematica1">
+                <div className='carrosselimg'>
+                  <div>
 
-              <div className='carrosselimg'>
-                <div>
+                    <PiMathOperationsFill color='blue' size={30} />
+                    <p>Matematica</p>
 
-                  <PiMathOperationsFill size={30} />
-                  <p>Matematica</p>
-
+                  </div>
                 </div>
-              </div>
+              </a>
+              <a href="/natureza1">
+                <div className='carrosselimg'>
+                  <div>
 
-              <div className='carrosselimg'>
-                <div>
+                    <MdScience color='lime' size={30} />
+                    <p>Natureza</p>
 
-                  <MdScience size={30} />
-                  <p>Natureza</p>
-
+                  </div>
                 </div>
-              </div>
+              </a>
+              <a href="/linguagens1">
+                <div className='carrosselimg'>
 
-              <div className='carrosselimg'>
+                  <div>
+                    <IoLanguage color='red' size={30} />
+                    <p>Linguagens</p>
+                  </div>
 
-                <div>
-                  <IoLanguage size={30} />
-                  <p>Linguagens</p>
-                </div>
+                </div >
+              </a>
 
-              </div >
+              <a href="/desi1">
+                <div className='carrosselimg'>
+                  <div>
 
-              <div className='carrosselimg'>
-                <div>
+                    <GoFileCode color='darkblue' size={30} />
+                    <p>Desenvolvimento de sistemas</p>
 
-                  <GiCarpetBombing size={30} />
-                  <p>Desenvolvimento de sistemas</p>
+                  </div>
+                </div >
+              </a>
 
-                </div>
-              </div >
+              <a href="/modelagem1">
+                <div className='carrosselimg'>
+                  <div>
 
-              <div className='carrosselimg'>
-                <div>
+                    <BiNetworkChart color='cyan' size={30} />
+                    <p>Modelagem de sistemas</p>
 
-                  <BiNetworkChart size={30} />
-                  <p>Modelagem de sistemas</p>
+                  </div>
+                </div >
+              </a>
 
-                </div>
-              </div >
+              <a href="/manutencao1">
+                <div className='carrosselimg'>
 
-              <div className='carrosselimg'>
+                  <div>
+                    <GrSystem size={30} />
+                    <p>Implementação e manutenção de software</p>
+                  </div>
 
-                <div>
-                  <GrSystem size={30} />
-                  <p>Implementação e manutenção de software</p>
-                </div>
-
-              </div >
+                </div >
+              </a>
 
             </Carousel >
           </div >
@@ -139,4 +149,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home1

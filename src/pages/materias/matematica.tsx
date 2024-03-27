@@ -1,8 +1,15 @@
+import { Header } from "../components/header"
+
 function Matematica1() {
     return (
-        <div>
-
-        </div>
+       <>
+       <Header/>
+       <main>
+            <section>
+                <h1>Matematica</h1>
+            </section>
+        </main>
+       </>
     )
 }
 export { Matematica1 }

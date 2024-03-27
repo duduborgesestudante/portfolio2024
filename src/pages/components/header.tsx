@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import {  IoIosMenu, IoMdClose, IoMdDownload } from "react-icons/io";
+import {  IoIosMenu, IoMdClose } from "react-icons/io";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { MdOutlineContactPage } from 'react-icons/md';
 
 function Header(){
     const navigate = useNavigate()
@@ -38,7 +39,7 @@ function Header(){
                 <IoMdClose className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
                <h2 onClick={paginicial}>Portfólio</h2> 
                 <a href="curriculo.pdf" target="_blank" className='download'  >
-                <IoMdDownload  color='white'   size={40} />
+                <MdOutlineContactPage   color='white'   size={40} />
                 </a>
                 
 
@@ -64,7 +65,7 @@ function Header(){
                 <IoIosMenu className='animate__pulse animate__animated open-nav' color='white' onClick={abrirNav} size={40} />
                 <h2 onClick={paginicial}>Portfólio</h2>
                 <a href="curriculo.pdf" target="_blank" className='download'  >
-                <IoMdDownload  color='white'  size={40} />
+                <MdOutlineContactPage   color='white'  size={40} />
                 </a>
               </div>
             </>)}
