@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Pacifico&display=swap');
+
 nav {
     display: flex;
     flex-direction: column;
@@ -13,6 +13,32 @@ nav {
     margin: 0;
 }
 
+.carrosselimg-group {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 20px;
+    height: 250px;
+}
+
+.carrosselimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 105px;
+    border-radius: 20px;
+    color: black;
+    border: 1px dotted rgba(0, 0, 0, 0.349);
+    text-align: center;
+}
+
+.styles-module_carousel-arrow__26sRw {
+    opacity: 0;
+}
+
 .nav-div {
     height: 100vh;
     width: 60%;
@@ -21,8 +47,9 @@ nav {
     background-color: rgb(243, 20, 20);
 
 }
-.nav-icons{
-    
+
+.nav-icons {
+
     height: 55%;
     display: flex;
     flex-direction: row;
@@ -30,6 +57,7 @@ nav {
     align-items: end;
     margin: 0 30px;
 }
+
 .close-nav {
     align-items: center;
     display: flex;
@@ -39,7 +67,7 @@ nav {
 
 }
 
-  
+
 
 .nav-div p {
     color: aliceblue;
@@ -59,7 +87,8 @@ a {
     height: 3.5rem;
     align-items: center;
 }
-.div-nav h2{
+
+.div-nav h2 {
     user-select: none;
     text-align: center;
     margin: auto;
@@ -68,7 +97,8 @@ a {
     font-size: xx-large;
     text-shadow: 1px 1px 30px wheat;
 }
-.close-nav h2{
+
+.close-nav h2 {
     user-select: none;
     text-align: center;
     margin: auto;
@@ -77,11 +107,13 @@ a {
     font-size: xx-large;
     text-shadow: 1px 1px 30px wheat;
 }
+
 main {
     padding-top: 80px;
     margin-left: 10px;
 }
-nav h3{
+
+nav h3 {
     width: 80%;
     color: white;
     margin: auto;
@@ -91,7 +123,8 @@ nav h3{
     border-bottom: 1px dotted white;
 
 }
-footer{
+
+footer {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -100,69 +133,82 @@ footer{
     background: #000;
     color: white;
     height: 50px;
-    
+
 }
-.foot{
+
+.foot {
     display: flex;
     justify-content: space-between;
 }
-.foot a{
-    margin: 0 10px ;
+
+.foot a {
+    margin: 0 10px;
 }
-.open-nav{
+
+.open-nav {
     position: fixed;
 }
 
-.download{
+.download {
     position: fixed;
     right: 0;
 }
-.minha-foto{
+
+.minha-foto {
     box-shadow: 1px 1px 10px 3px black;
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    border:  3px solid rgb(190, 190, 190);
+    border: 3px solid rgb(190, 190, 190);
 }
-figure{
+
+figure {
     text-align: center;
     margin-bottom: 40px;
 }
-main h1{
+
+main h1 {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     color: whitesmoke;
-    text-shadow: 4px 3px  10px black;
+    text-shadow: 4px 3px 10px black;
     font-size: xx-large;
 }
-h1 span{
+
+h1 span {
     text-shadow: 0 0 0 black;
     color: red;
 }
-main h3{
+
+main h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.home-title{
+
+.home-title {
     text-align: center;
     margin-left: auto;
 }
-.home-title img{
+
+.home-title img {
     margin: 10px auto;
 }
-.sobremim{
+
+.sobremim {
     height: fit-content;
     width: 90%;
     margin: 30px auto;
 
 }
+
 .sobremim h2 {
     user-select: none;
     font-size: xx-large;
     color: red;
     margin: 10px 0;
 }
-h2 span{
+
+h2 span {
     user-select: none;
     color: black;
 }
