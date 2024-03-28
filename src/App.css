@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 nav {
     display: flex;
     flex-direction: column;
@@ -9,32 +10,41 @@ nav {
     width: 100%;
     margin-bottom: 30px;
 }
-body{
+
+body {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
+    background-color: #F2EAE4;
+    color: #730202;
 }
+
 * {
-    
+
     margin: 0;
 }
-.title-materia{
+
+.title-materia {
     font-size: x-large;
     width: 90%;
     margin: auto;
     font-weight: 600;
-    color: black ;
+    color: #730202;
 }
-.title-materia span{
-    color: red ;
+
+.title-materia span {
+    color: #BF0404;
 
 }
-.little-materia{
+
+.little-materia {
     width: 90%;
     margin: auto;
     opacity: 70%;
     font-size: 8px;
 }
+
 .carrosselimg-group {
+    color: #730202;
     display: flexbox;
     justify-content: space-between;
     align-items: center;
@@ -42,14 +52,13 @@ body{
     margin: auto;
     height: 250px;
 }
+
 .title-humanas h1 {
-    background: linear-gradient(
-        to right,
-        orange 20%,
-        rgb(255, 176, 30) 30%,
-        rgb(190, 140, 46) 70%,
-        rgb(224, 152, 16) 80%
-    );
+    background: linear-gradient(to right,
+            orange 20%,
+            rgb(255, 176, 30) 30%,
+            rgb(190, 140, 46) 70%,
+            rgb(224, 152, 16) 80%);
     font-family: "Cinzel Decorative", serif;
     font-weight: 500;
     text-align: center;
@@ -60,96 +69,209 @@ body{
     font-size: 45px;
     background-size: 500% auto;
     animation: textShine 5s ease-in-out infinite alternate;
-  }
-  .total-humanas{
+}
+
+.title-matematica h1 {
+    background: linear-gradient(to right,
+            blue 20%,
+            rgb(21, 21, 248) 30%,
+            rgb(76, 76, 248) 70%,
+            rgb(89, 89, 252) 80%);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 45px;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.title-natureza h1 {
+    background: linear-gradient(to right,
+            green 20%,
+            rgb(6, 182, 6) 30%,
+            rgb(11, 192, 11) 70%,
+            rgb(14, 187, 14) 80%);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 45px;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.total-humanas {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-.grid-humanas{
-    box-shadow: 1px 1px 10px 1px #00000091;
-    padding:15px 10px;
+}
+
+.grid-humanas {
+    box-shadow: 1px 1px 10px 1px #7302023a;
+    padding: 15px 10px;
     margin: 10px 5px 10px 0;
     border-radius: 5px;
     width: 70%;
     display: flex;
     flex-direction: column;
-    height:  fit-content;
+    height: fit-content;
 
 }
-.grid-humanas h2{
+
+.grid-humanas h2 {
+    color: #BF0404;
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
 }
-.grid-humanas p{
+
+.grid-humanas p {
+    color: #730202;
     width: 80%;
-    margin: 0 auto ;
+    margin: 0 auto;
     text-align: justify;
     font-size: 10px;
 }
 
-.grid-humanas2{
-    box-shadow: 1px 1px 10px 1px #00000091;
-    padding:15px 10px ;
+.grid-humanas2 {
+    box-shadow: 1px 1px 10px 1px #7302023a;
+    padding: 15px 10px;
     margin: 10px auto 10px 80px;
     border-radius: 5px;
     width: 70%;
     display: flex;
     flex-direction: column;
-    height:  fit-content;
+    height: fit-content;
 
 }
-.grid-humanas2 h2{
+
+.grid-humanas2 h2 {
+    color: #BF0404;
+
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
 }
-.grid-humanas2 p{
+
+.grid-humanas2 p {
     width: 80%;
-    margin: 0 auto ;
+    color: #730202;
+    margin: 0 auto;
     text-align: justify;
     font-size: 10px;
 }
-.grid-humanas3{
-    box-shadow: 1px 1px 10px 1px #00000091;
-    padding:15px 10px ;
+
+.grid-humanas3 {
+    box-shadow: 1px 1px 10px 1px #7302023a;
+    padding: 15px 10px;
     margin: 10px auto 10px 80px;
     border-radius: 5px;
     width: 70%;
     display: flex;
     flex-direction: column;
-    height:  fit-content;
+    height: fit-content;
 }
-.grid-humanas3 img{
+
+.grid-humanas3 img {
     width: 80%;
     margin: auto;
 }
-.grid-humanas3 h2{
+
+.grid-humanas3 h2 {
+    color: #BF0404;
+
     text-align: center;
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
 }
-.grid-humanas3 p{
+
+.grid-humanas3 p {
+    color: #730202;
+
     width: 80%;
-    margin: 0 auto ;
+    margin: 0 auto;
     text-align: justify;
     font-size: 10px;
 }
+
+.grid-matematica {
+    box-shadow: 1px 1px 10px 1px #7302023a;
+    padding: 15px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+}
+
+.grid-matematica h2 {
+    color: #BF0404;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.grid-matematica p {
+    color: #730202;
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.grid-natureza {
+    box-shadow: 1px 1px 10px 1px #7302023a;
+    padding: 15px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+}
+
+.grid-natureza h2 {
+    color: #BF0404;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.grid-natureza p {
+    color: #730202;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 10px;
+}
+
 .carrosselimg {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 95%;
+    margin: auto;
     height: 105px;
     border-radius: 20px;
-    color: black;
+    color: #730202;
     border: 1px dotted rgba(0, 0, 0, 0.349);
     text-align: center;
 }
-.a-beatddoneckles{
+
+.a-beatddoneckles {
     color: black;
 }
 
@@ -165,10 +287,11 @@ body{
     justify-content: space-between;
     position: fixed;
     top: 3.46rem;
-    background-color: gray;
+    background-color: #730202;
 
 }
-.itens-nav{
+
+.itens-nav {
     height: 30%;
     margin-top: 10px;
 }
@@ -180,7 +303,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
-   
+
 }
 
 .close-nav {
@@ -188,7 +311,7 @@ body{
     display: flex;
     width: 100vw;
     height: 3.5rem;
-    background-color: gray;
+    background-color: #730202;
 
 }
 
@@ -198,22 +321,25 @@ body{
     color: aliceblue;
     margin: 10px 14px;
 }
-.git{
-    background-color: white;
+
+.git {
+    background-color: #F2EAE4;
     border-radius: 50%;
 }
-.linkd{
-    background-color: white;
+
+.linkd {
+    background-color: #F2EAE4;
     border-radius: 5px;
 }
+
 a {
-    color: white;
+    color: #F2EAE4;
     text-decoration: none;
 }
 
 .div-nav {
     width: 100%;
-    background-color: gray;
+    background-color: #730202;
 
     display: flex;
     flex-direction: row;
@@ -225,21 +351,19 @@ a {
     user-select: none;
     text-align: center;
     margin: auto;
-    color: white;
+    color: #F2EAE4;
     font-size: 2rem;
     font-family: "Cinzel Decorative", serif;
-   
-    text-shadow: 1px 1px 30px wheat;
+
 }
 
 .close-nav h2 {
     user-select: none;
     text-align: center;
     margin: auto;
-    color: white;
+    color: #F2EAE4;
     font-size: 2rem;
     font-family: "Cinzel Decorative", serif;
-    text-shadow: 1px 1px 30px wheat;
 }
 
 main {
@@ -247,14 +371,21 @@ main {
     margin-left: 10px;
 }
 
+.main2 {
+    height: 78vh;
+    padding-top: 80px;
+    margin-left: 0px;
+}
+
+
 nav h3 {
-    width: 80%;
-    color: white;
+    width: 85%;
+    color: #F2EAE4;
     margin: auto;
     text-align: center;
     font-size: large;
-    border-top: 1px dotted white;
-    border-bottom: 1px dotted white;
+    border-top: 1px dotted #F2EAE4;
+    border-bottom: 1px dotted #F2EAE4;
 
 }
 
@@ -264,10 +395,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: #000;
-    color: white;
+    background: #730202;
+    color: #F2EAE4;
     height: 50px;
-
+    position: absolute;
+    width: 100%;
 }
 
 .foot {
@@ -289,11 +421,11 @@ footer {
 }
 
 .minha-foto {
-    box-shadow: 1px 1px 10px 3px black;
+    box-shadow: 1px 1px 10px 3px #D98F89;
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    border: 3px solid rgb(190, 190, 190);
+    border: 3px solid #730202;
 }
 
 figure {
@@ -305,14 +437,14 @@ main h1 {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    color: black;
-    text-shadow: 4px 3px 10px whitesmoke;
+    color: #730202;
+    text-shadow: 4px 3px 10px #F2EAE4;
     font-size: xx-large;
 }
 
 h1 span {
     text-shadow: 0 0 0 black;
-    color: red;
+    color: #BF0404;
 }
 
 main h3 {
@@ -338,13 +470,14 @@ main h3 {
 .sobremim h2 {
     user-select: none;
     font-size: xx-large;
-    color: red;
+    color: #BF0404;
     margin: 10px 0;
 }
 
 h2 span {
+
     user-select: none;
-    color: black;
+    color: #730202;
 }
 
 
@@ -356,6 +489,7 @@ h2 span {
     0% {
         background-position: 0% 50%;
     }
+
     100% {
         background-position: 100% 50%;
     }
