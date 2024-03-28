@@ -2,7 +2,6 @@ import 'animate.css';
 import '../../App.css'
 import { TypeAnimation } from 'react-type-animation';
 import { Header } from './header';
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Carousel } from '@trendyol-js/react-carousel';
 import { GiCarpetBombing } from 'react-icons/gi';
 import { PiMathOperationsFill } from 'react-icons/pi';
@@ -11,6 +10,7 @@ import { GrSystem } from 'react-icons/gr';
 import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
 import { GoFileCode } from 'react-icons/go';
+import { Footer } from './footer';
 
 function Home1() {
 
@@ -137,14 +137,7 @@ function Home1() {
 
       </main >
 
-      <footer>
-        <p className='foot '>
-          <a target='_blank' href="https://github.com/duduborges"><FaGithub size={25} /></a>
-          <a className='tex' >Eduardo Borges &copy;</a>
-          <a target='_blank' href="https://www.linkedin.com/in/eduardo-borges-cambraia-809225269/">< FaLinkedin size={25} color='blue' /></a>
-        </p>
-
-      </footer>
+      <Footer/>
     </>
   )
 }
