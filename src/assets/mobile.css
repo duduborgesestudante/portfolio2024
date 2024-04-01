@@ -48,7 +48,7 @@ padding: 0;
 }
 
 .carrosselimg-group {
-        color: #730202;
+    color: #730202;
     display: flexbox;
     justify-content: space-between;
     align-items: center;
@@ -56,43 +56,7 @@ padding: 0;
     margin: auto;
     height: 250px;
 }
-.carrosel{
-    display: none;
-}
-.materias-web{
-   
-    color: #730202;
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    height: 700px
-; padding-bottom: 40px;
-}
-.card-materia {
-    font-size: larger;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 20rem;
-    margin: 10px auto;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.26);
-    height: 200px;
-    border-radius: 20px;
-    color: #730202;
-    transition: 0.5s;
-}
-.card-materia:hover{
-    scale: 1.1;
-    box-shadow: 1px 1px 10px 1px #730202;
-    color: #D96262;
 
-}
 .title-humanas h1 {
     background: linear-gradient(to right,
             orange 20%,
@@ -109,9 +73,6 @@ padding: 0;
     font-size: 45px;
     background-size: 500% auto;
     animation: textShine 5s ease-in-out infinite alternate;
-}
-.mobile{
-    display: none;
 }
 
 .title-matematica h1 {
@@ -449,9 +410,6 @@ footer {
 }
 
 .foot {
-    margin: auto;
-    font-size: x-large;
-    width: 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -471,9 +429,10 @@ footer {
 
 .minha-foto {
     box-shadow: 1px 1px 10px 3px #D98F89;
-    width: 300px;
-    border-radius: 8px;
-    border: 1px double #730202;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid #730202;
 }
 
 figure {
@@ -507,24 +466,6 @@ main h3 {
 .home-title img {
     margin: 10px auto;
 }
-.home-title-web{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-}
-.sobre-web{
-    width: 60%;
-}
-.img-sobre{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .sobremim {
     height: fit-content;
@@ -532,7 +473,9 @@ main h3 {
     margin: 30px auto;
 
 }
-
+.mobile{
+    display: contents;
+}
 .sobremim h2 {
     user-select: none;
     font-size: xx-large;

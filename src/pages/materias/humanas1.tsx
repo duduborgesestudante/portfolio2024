@@ -17,7 +17,7 @@ function Humanas1() {
                 <section>
                     <div className="total-humanas">
                         
-                        <a className="a-beatddoneckles" href="https://docs.google.com/presentation/d/16KeuIyuRsdEWu-yYq13cmajcMLn0RZYuU7g9Dg9Ikdk/edit?usp=sharing">
+                        <a target="_blank"  className="a-beatddoneckles" href="https://docs.google.com/presentation/d/16KeuIyuRsdEWu-yYq13cmajcMLn0RZYuU7g9Dg9Ikdk/edit?usp=sharing">
                         <div className="grid-humanas2">
                             <img  src={humanas1} alt="" />
                             <h2>Seminário GeoPolitica</h2>
@@ -25,7 +25,7 @@ function Humanas1() {
                              visando comparar a atual conjuntura geopolítica com o histórico pregresso das ordens mundiais</p>
                         </div>
                         </a>
-                        <a className="a-beatddoneckles" href="https://www.canva.com/design/DAF-jnRoFh0/UJjXdZdkPMZHwfLiK_gfZg/edit?utm_content=DAF-jnRoFh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <a target="_blank"  className="a-beatddoneckles" href="https://www.canva.com/design/DAF-jnRoFh0/UJjXdZdkPMZHwfLiK_gfZg/edit?utm_content=DAF-jnRoFh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                         <div className="grid-humanas">
                             <img  src={humanas2} alt="" />
                             <h2>Como era a Angola antes da colonização</h2>
@@ -34,7 +34,7 @@ function Humanas1() {
                                  meio de fotos, mapas e desenhos</p>
                         </div>
                         </a>
-                        <a className="a-beatddoneckles" href="https://docs.google.com/document/d/1UoqXACD4e7wVjDwKct3_AuVv4eJyGPmHqRQ65TFAM-Y/edit?usp=sharing">
+                        <a target="_blank"  className="a-beatddoneckles" href="https://docs.google.com/document/d/1UoqXACD4e7wVjDwKct3_AuVv4eJyGPmHqRQ65TFAM-Y/edit?usp=sharing">
                         <div className="grid-humanas3">
                             <img  src={humanas3} alt="" />
                             <h2>A Grande Guerra (Filme 1917)</h2>

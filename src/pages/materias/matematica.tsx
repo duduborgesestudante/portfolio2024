@@ -10,7 +10,7 @@ function Matematica1() {
                     <h1>Matemática</h1>
                 </section>
                 <section>
-                    <a className="a-beatddoneckles" href="https://youtu.be/QD5ObRhKrgc">
+                    <a target="_blank"  className="a-beatddoneckles" href="https://youtu.be/QD5ObRhKrgc">
                         <div className="grid-matematica">
                             <img src={matematica1} alt="" />
                             <h2>Caça ao tesouro</h2>
