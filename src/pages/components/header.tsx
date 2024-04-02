@@ -75,12 +75,19 @@ function Header() {
       </nav>
       <nav className='web-nav'>
         <div className='div-nav'>
-          <div><a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a></div>
-          <div> <a href="/"><h2>Primeiro Trimestre 2024</h2></a></div>
-          <div><h2 id='title' onClick={paginicial}>Portfólio</h2></div>
-          <div><a href="/segundo"><h2>Segundo Trimestre 2024</h2></a></div>
-          <div><a href="/teceiro"><h2>Terceiro Trimestre 2024</h2></a></div>
-          <a href="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
+          <div>
+            <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
+            <a href="/"><h2>Primeiro Trimestre 2024</h2></a>
+            <a href="/segundo"><h2>Segundo Trimestre 2024</h2></a>
+            <a href="/teceiro"><h2>Terceiro Trimestre 2024</h2></a>
+          </div>
+          {/* <div>
+            <h2 id='title' onClick={paginicial}>Portfólio</h2>
+          </div> */}
+          <div className='curriculo-div'>
+            <h2>Curriculo ➡</h2>
+            <a href="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
+          </div>
         </div>
       </nav>
     </header>
