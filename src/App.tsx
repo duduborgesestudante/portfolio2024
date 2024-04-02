@@ -1,8 +1,8 @@
-//import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter } from "react-router-dom"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PrimeiroTri } from "./pages/PrimeiroTri"
 import { Natureza1 } from "./pages/materias/natureza1"
-/*
+
 import { SegundoTri } from "./pages/SegundoTri"
 import { TerceiroTri } from "./pages/TerceiroTri"
 import { Manutencao } from "./pages/materias/manutencao1"
@@ -12,18 +12,8 @@ import { Matematica1 } from "./pages/materias/matematica"
 
 import { Linguagens1 } from "./pages/materias/linguagens1"
 import { Humanas1 } from "./pages/materias/humanas1"
-*/
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<PrimeiroTri />} />
-        <Route path="/natureza1" element={<Natureza1 />} />
-      </Routes>
-    </Router>
-  );
-}
-/*
+
+
 const router = createBrowserRouter([
 
   {
@@ -69,5 +59,5 @@ const router = createBrowserRouter([
 
 
 ])
-*/
-export default App;
+
+export default router;

@@ -16,9 +16,28 @@ import { useNavigate } from 'react-router-dom';
 function Home1() {
 
   const irPara = useNavigate();
-  const aaa = () => {
+  const natureza1 = () => {
     irPara("/natureza1")
   }
+  const linguagens1 = () => {
+    irPara("/linguagens1")
+  }
+  const matematica1 = () => {
+    irPara("/matematica1")
+  }
+  const humanas1 = () => {
+    irPara("/humanas1")
+  }
+  const desi1 = () => {
+    irPara("/desi1")
+  }
+  const modelagem1 = () => {
+    irPara("/modelagem1")
+  }
+  const manutencao1 = () => {
+    irPara("/manutencao1")
+  }
+
 
   return (
     <>
@@ -100,77 +119,75 @@ function Home1() {
           <div className='carrosel'>
 
             <Carousel className='carrosselimg-group' show={2.03} infinite={false} slide={2.03} swiping={true}>
-              <a href="/humanas1">
-                <div className='carrosselimg'>
-                  <div>
-                    <GiCarpetBombing color='orange' size={30} />
-                    <p>Humanas</p>
-                  </div>
+
+              <div onClick={humanas1} className='carrosselimg'>
+                <div>
+                  <GiCarpetBombing color='orange' size={30} />
+                  <p>Humanas</p>
                 </div>
-              </a>
-              <a href="/matematica1">
-                <div className='carrosselimg'>
-                  <div>
+              </div>
 
-                    <PiMathOperationsFill color='blue' size={30} />
-                    <p>Matematica</p>
 
-                  </div>
+              <div onClick={matematica1} className='carrosselimg'>
+                <div>
+
+                  <PiMathOperationsFill color='blue' size={30} />
+                  <p>Matematica</p>
+
                 </div>
-              </a>
-              <a href="/natureza1">
-                <div className='carrosselimg'>
-                  <div>
+              </div>
 
-                    <MdScience color='lime' size={30} />
-                    <p>Natureza</p>
 
-                  </div>
+              <div onClick={natureza1} className='carrosselimg'>
+                <div>
+
+                  <MdScience color='lime' size={30} />
+                  <p>Natureza</p>
+
                 </div>
-              </a>
-              <a href="/linguagens1">
-                <div className='carrosselimg'>
+              </div>
 
-                  <div>
-                    <IoLanguage color='red' size={30} />
-                    <p>Linguagens</p>
-                  </div>
 
-                </div >
-              </a>
+              <div onClick={linguagens1} className='carrosselimg'>
+                <div>
+                  <IoLanguage color='red' size={30} />
+                  <p>Linguagens</p>
+                </div>
+              </div >
 
-              <a href="/desi1">
-                <div className='carrosselimg'>
-                  <div>
 
-                    <GoFileCode color='darkblue' size={30} />
-                    <p>Desenvolvimento de sistemas</p>
 
-                  </div>
-                </div >
-              </a>
+              <div onClick={desi1} className='carrosselimg'>
+                <div>
 
-              <a href="/modelagem1">
-                <div className='carrosselimg'>
-                  <div>
+                  <GoFileCode color='darkblue' size={30} />
+                  <p>Desenvolvimento de sistemas</p>
 
-                    <BiNetworkChart color='cyan' size={30} />
-                    <p>Modelagem de sistemas</p>
+                </div>
+              </div >
 
-                  </div>
-                </div >
-              </a>
 
-              <a href="/manutencao1">
-                <div className='carrosselimg'>
 
-                  <div>
-                    <GrSystem size={30} />
-                    <p>Implementação e manutenção de software</p>
-                  </div>
+              <div onClick={modelagem1} className='carrosselimg'>
+                <div>
 
-                </div >
-              </a>
+                  <BiNetworkChart color='cyan' size={30} />
+                  <p>Modelagem de sistemas</p>
+
+                </div>
+              </div >
+
+
+
+              <div onClick={manutencao1} className='carrosselimg'>
+
+                <div>
+                  <GrSystem size={30} />
+                  <p>Implementação e manutenção de software</p>
+                </div>
+
+              </div >
+
 
             </Carousel >
             <center>
@@ -180,26 +197,25 @@ function Home1() {
           </div >
 
           <div className='materias-web'>
-            <a href="/humanas1">
-              <div className='card-materia'>
-                <div>
-                  <GiCarpetBombing color='orange' size={60} />
-                  <p>Humanas</p>
-                </div>
+
+            <div onClick={humanas1} className='card-materia'>
+              <div>
+                <GiCarpetBombing color='orange' size={60} />
+                <p>Humanas</p>
               </div>
-            </a>
-            <a href="/matematica1">
-              <div className='card-materia'>
-                <div>
+            </div>
 
-                  <PiMathOperationsFill color='blue' size={60} />
-                  <p>Matematica</p>
 
-                </div>
+            <div onClick={matematica1} className='card-materia'>
+              <div>
+
+                <PiMathOperationsFill color='blue' size={60} />
+                <p>Matematica</p>
+
               </div>
-            </a>
+            </div>
 
-            <div className='card-materia' onClick={aaa}>
+            <div className='card-materia' onClick={natureza1}>
               <div>
 
                 <MdScience color='lime' size={60} />
@@ -208,49 +224,43 @@ function Home1() {
               </div>
             </div>
 
-            <a href="/linguagens1">
-              <div className='card-materia'>
 
-                <div>
-                  <IoLanguage color='red' size={60} />
-                  <p>Linguagens</p>
-                </div>
+            <div onClick={linguagens1} className='card-materia'>
 
-              </div >
-            </a>
+              <div>
+                <IoLanguage color='red' size={60} />
+                <p>Linguagens</p>
+              </div>
 
-            <a href="/desi1">
-              <div className='card-materia'>
-                <div>
+            </div >
 
-                  <GoFileCode color='darkblue' size={60} />
-                  <p>Desenvolvimento de sistemas</p>
 
-                </div>
-              </div >
-            </a>
+            <div onClick={desi1} className='card-materia'>
+              <div>
 
-            <a href="/modelagem1">
-              <div className='card-materia'>
-                <div>
+                <GoFileCode color='darkblue' size={60} />
+                <p>Desenvolvimento de sistemas</p>
 
-                  <BiNetworkChart color='cyan' size={60} />
-                  <p>Modelagem de sistemas</p>
+              </div>
+            </div >
 
-                </div>
-              </div >
-            </a>
+            <div onClick={modelagem1} className='card-materia'>
+              <div>
 
-            <a href="/manutencao1">
-              <div className='card-materia'>
+                <BiNetworkChart color='cyan' size={60} />
+                <p>Modelagem de sistemas</p>
 
-                <div>
-                  <GrSystem size={60} />
-                  <p>Implementação e manutenção de software</p>
-                </div>
+              </div>
+            </div >
 
-              </div >
-            </a>
+            <div onClick={manutencao1} className='card-materia'>
+
+              <div>
+                <GrSystem size={60} />
+                <p>Implementação e manutenção de software</p>
+              </div>
+
+            </div >
           </div>
         </section >
 
