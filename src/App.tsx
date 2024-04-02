@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PrimeiroTri } from "./pages/PrimeiroTri"
 import { Natureza1 } from "./pages/materias/natureza1"
 
