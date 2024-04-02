@@ -88,7 +88,7 @@ function Header() {
           </div> */}
           <div className='curriculo-div'>
             <h2>Currículo ➡</h2>
-            <a href={"../../curriculo.pdf"} download="MyExampleDoc" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
+            <a href={"../../curriculo.pdf"} download="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
           </div>
         </div>
       </nav>
