@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom"
-import Home from './pages/components/home1'
 import { PrimeiroTri } from "./pages/PrimeiroTri"
 import { SegundoTri } from "./pages/SegundoTri"
 import { TerceiroTri } from "./pages/TerceiroTri"
@@ -11,7 +10,7 @@ import { Natureza1 } from "./pages/materias/natureza1"
 import { Linguagens1 } from "./pages/materias/linguagens1"
 import { Humanas1 } from "./pages/materias/humanas1"
 const router = createBrowserRouter([
- 
+
   {
     path: '/',
     element: <PrimeiroTri />,

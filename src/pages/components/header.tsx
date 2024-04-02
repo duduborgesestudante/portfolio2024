@@ -4,17 +4,16 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { HiMenuAlt2 } from 'react-icons/hi';
-import React from "react"
 
 function Header() {
   const navigate = useNavigate()
   const [nav, setNav] = useState(false)
-  const [isNavVisible, setIsNavVisible] = useState(false)
+  // const [isNavVisible, setIsNavVisible] = useState(false)
 
-  function togleNav() {
-    setNav(true)
-    setIsNavVisible(!isNavVisible)
-  }
+  // function togleNav() {
+  //   setNav(true)
+  //   setIsNavVisible(!isNavVisible)
+  // }
   function paginicial() {
     navigate("/")
   }

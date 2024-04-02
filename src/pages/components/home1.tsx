@@ -11,7 +11,6 @@ import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
 import { GoFileCode } from 'react-icons/go';
 import { Footer } from './footer';
-import React from "react"
 
 function Home1() {
 
@@ -57,37 +56,37 @@ function Home1() {
             </div>
           </div>
           <div className='web'>
-          <div className='home-title-web'>
-            <div className='sobre-web'>
-            <h1 className='animate__animated animate__bounce'>Eduardo <span>Borges</span> </h1>
+            <div className='home-title-web'>
+              <div className='sobre-web'>
+                <h1 className='animate__animated animate__bounce'>Eduardo <span>Borges</span> </h1>
 
 
-              <h2 className=''>Sobre <span>mim</span> </h2>
-              <p className=''>
-                Minhas expectativas quanto a minha formação é me formar ensino médio e concluir o curso técnico
-                em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React.
-                Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
-                sou muito novo e tenho um potencial muito grande de evolução.
-                Minha interação social melhorou muito depois de vir pro senai, comecei a conviver com pessoas novas, de todos os estilos , acredito que isso tenha me ajudado muito a desenvolver minha capacidade de socialização e liderança</p>
-              
+                <h2 className=''>Sobre <span>mim</span> </h2>
+                <p className=''>
+                  Minhas expectativas quanto a minha formação é me formar ensino médio e concluir o curso técnico
+                  em desenvolvimento de sistemas do Senai. Quero seguir nessa carreira de WebDeveloper com React.
+                  Programar me motiva a crescer, gosto muito de escrever o codigo e aparecer na minha tela, acho que posso ser muito melhor do que eu sou atualmente
+                  sou muito novo e tenho um potencial muito grande de evolução.
+                  Minha interação social melhorou muito depois de vir pro senai, comecei a conviver com pessoas novas, de todos os estilos , acredito que isso tenha me ajudado muito a desenvolver minha capacidade de socialização e liderança</p>
+
+              </div>
+              <div className='img-sobre'>
+                <img src="https://avatars.githubusercontent.com/u/84474594?v=4" className='minha-foto' alt="" />
+
+                <h3><TypeAnimation
+                  sequence={[
+                    'Aluno da Escola Sesi',
+                    1000,
+                    'Aluno do Senai',
+                    1000,
+
+                  ]}
+                  speed={50}
+                  style={{ fontSize: '2em' }}
+                /></h3>
+              </div>
+
             </div>
-            <div className='img-sobre'>
-              <img src="https://avatars.githubusercontent.com/u/84474594?v=4" className='minha-foto' alt="" />
-             
-              <h3><TypeAnimation
-                sequence={[
-                  'Aluno da Escola Sesi',
-                  1000,
-                  'Aluno do Senai',
-                  1000,
-
-                ]}
-                speed={50}
-                style={{ fontSize: '2em' }}
-              /></h3>
-            </div>
-
-          </div>
           </div>
 
           <div>
@@ -96,7 +95,7 @@ function Home1() {
           </div>
           <div className='carrosel'>
 
-            <Carousel className='carrosselimg-group' show={2.03} draggable={true} swipeable={true} infinite={false} slide={2.03} swiping={true}>
+            <Carousel className='carrosselimg-group' show={2.03} infinite={false} slide={2.03} swiping={true}>
               <a href="/humanas1">
                 <div className='carrosselimg'>
                   <div>
