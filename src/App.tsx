@@ -1,16 +1,18 @@
 //import { createBrowserRouter } from "react-router-dom"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PrimeiroTri } from "./pages/PrimeiroTri"
+import { Natureza1 } from "./pages/materias/natureza1"
+/*
 import { SegundoTri } from "./pages/SegundoTri"
 import { TerceiroTri } from "./pages/TerceiroTri"
 import { Manutencao } from "./pages/materias/manutencao1"
 import { Modelagem1 } from "./pages/materias/modelagem1"
 import { Desi1 } from "./pages/materias/desi1"
 import { Matematica1 } from "./pages/materias/matematica"
-import { Natureza1 } from "./pages/materias/natureza1"
+
 import { Linguagens1 } from "./pages/materias/linguagens1"
 import { Humanas1 } from "./pages/materias/humanas1"
-
+*/
 function App() {
   return (
     <Router>
