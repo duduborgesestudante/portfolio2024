@@ -84,7 +84,7 @@ function Header() {
             <h2 id='title' onClick={paginicial}>Portfólio</h2>
           </div> */}
           <div className='curriculo-div'>
-            <h2>Curriculo ➡</h2>
+            <h2>Currículo ➡</h2>
             <a href="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
           </div>
         </div>
