@@ -11,10 +11,14 @@ import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
 import { GoFileCode } from 'react-icons/go';
 import { Footer } from './footer';
+import { useNavigate } from 'react-router-dom';
 
 function Home1() {
 
-
+  const irPara = useNavigate();
+  const aaa = () => {
+    irPara("/natureza1")
+  }
 
   return (
     <>
@@ -195,7 +199,7 @@ function Home1() {
               </div>
             </a>
             <a href="/natureza1">
-              <div className='card-materia'>
+              <div className='card-materia' onClick={aaa}>
                 <div>
 
                   <MdScience color='lime' size={60} />
