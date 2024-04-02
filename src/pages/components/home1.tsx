@@ -11,6 +11,7 @@ import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
 import { GoFileCode } from 'react-icons/go';
 import { Footer } from './footer';
+import React from "react"
 
 function Home1() {
 
@@ -55,7 +56,7 @@ function Home1() {
 
             </div>
           </div>
-          <div className='web'></div>
+          <div className='web'>
           <div className='home-title-web'>
             <div className='sobre-web'>
             <h1 className='animate__animated animate__bounce'>Eduardo <span>Borges</span> </h1>
@@ -87,7 +88,7 @@ function Home1() {
             </div>
 
           </div>
-
+          </div>
 
           <div>
             <p className='title-materia'>Atividades por <span>matéria</span></p>

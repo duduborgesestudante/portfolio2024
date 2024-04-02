@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { HiMenuAlt2 } from 'react-icons/hi';
+import React from "react"
 
 function Header() {
   const navigate = useNavigate()
@@ -29,13 +30,10 @@ function Header() {
   return (
     <header>
 
-      <nav>
+      <nav className='nav-mobile'>
 
         {nav ? (
           <>
-
-
-
             <div className='close-nav'>
               <IoMdClose className='animate__pulse animate__animated open-nav' color='#F2EAE4' onClick={abrirNav} size={40} />
               <h2 onClick={paginicial}>Portfólio</h2>
@@ -75,7 +73,16 @@ function Header() {
           </>)}
 
       </nav>
-
+      <nav className='web-nav'>
+        <div className='div-nav'>
+          <div><a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a></div>
+          <div> <a href="/"><h2>Primeiro Trimestre 2024</h2></a></div>
+          <div><h2 id='title' onClick={paginicial}>Portfólio</h2></div>
+          <div><a href="/segundo"><h2>Segundo Trimestre 2024</h2></a></div>
+          <div><a href="/teceiro"><h2>Terceiro Trimestre 2024</h2></a></div>
+          <a href="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
+        </div>
+      </nav>
     </header>
   )
 }
