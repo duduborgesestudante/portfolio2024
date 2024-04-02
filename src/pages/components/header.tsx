@@ -8,12 +8,15 @@ import { HiMenuAlt2 } from 'react-icons/hi';
 function Header() {
   const navigate = useNavigate()
   const [nav, setNav] = useState(false)
-  // const [isNavVisible, setIsNavVisible] = useState(false)
 
-  // function togleNav() {
-  //   setNav(true)
-  //   setIsNavVisible(!isNavVisible)
-  // }
+  const irPara = useNavigate();
+  const segundo = () => {
+    irPara("/segundo")
+  }
+  const terceiro = () => {
+    irPara("/terceiro")
+  }
+
   function paginicial() {
     navigate("/")
   }
@@ -48,8 +51,8 @@ function Header() {
                 <a href="https://porfolio-segundo-ano.netlify.app/"><p>Portfolio 2023</p></a>
                 <h3>Portfolio por  Trimestre </h3>
                 <a href="/"><p>Primeiro Trimestre 2024</p></a>
-                <a href="/segundo"><p>Segundo Trimestre 2024</p></a>
-                <a href="/teceiro"><p>Terceiro Trimestre 2024</p></a>
+                <a><p onClick={segundo}>Segundo Trimestre 2024</p></a>
+                <a><p onClick={terceiro}>Terceiro Trimestre 2024</p></a>
               </div>
 
               <div className='nav-icons'>
@@ -77,8 +80,8 @@ function Header() {
           <div>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
             <a href="/"><h2>Primeiro Trimestre 2024</h2></a>
-            <a href="/segundo"><h2>Segundo Trimestre 2024</h2></a>
-            <a href="/teceiro"><h2>Terceiro Trimestre 2024</h2></a>
+            <h2 onClick={segundo}>Segundo Trimestre 2024</h2>
+            <h2 onClick={terceiro}>Terceiro Trimestre 2024</h2>
           </div>
           {/* <div>
             <h2 id='title' onClick={paginicial}>Portfólio</h2>
