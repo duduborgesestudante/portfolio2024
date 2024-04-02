@@ -198,16 +198,16 @@ function Home1() {
                 </div>
               </div>
             </a>
-            <a href="/natureza1">
-              <div className='card-materia' onClick={aaa}>
-                <div>
 
-                  <MdScience color='lime' size={60} />
-                  <p>Natureza</p>
+            <div className='card-materia' onClick={aaa}>
+              <div>
 
-                </div>
+                <MdScience color='lime' size={60} />
+                <p>Natureza</p>
+
               </div>
-            </a>
+            </div>
+
             <a href="/linguagens1">
               <div className='card-materia'>
 
