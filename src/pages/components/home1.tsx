@@ -118,7 +118,7 @@ function Home1() {
           </div>
           <div className='carrosel'>
 
-            <Carousel className='carrosselimg-group' show={2.03} infinite={false} slide={2.03} swiping={true}>
+            <Carousel className='carrosselimg-group' show={2.03} infinite={false} slide={2.01} swiping={true}>
 
               <div onClick={humanas1} className='carrosselimg'>
                 <div>
@@ -170,24 +170,17 @@ function Home1() {
 
               <div onClick={modelagem1} className='carrosselimg'>
                 <div>
-
                   <BiNetworkChart color='cyan' size={30} />
                   <p>Modelagem de sistemas</p>
-
                 </div>
-              </div >
-
-
-
-              <div onClick={manutencao1} className='carrosselimg'>
-
-                <div>
-                  <GrSystem size={30} />
-                  <p>Implementação e manutenção de software</p>
-                </div>
-
-              </div >
-
+              </div >                
+                <div  onClick={manutencao1} className='carrosselimg'>
+                  <div>
+                    <GrSystem size={30} />
+                    <p>Implementação e manutenção de software</p>
+                    
+                  </div>
+                </div >
 
             </Carousel >
             <center>

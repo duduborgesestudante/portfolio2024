@@ -19,3 +19,6 @@
 .Château-Galoupet-4-hsla { color: hsla(0, 96, 22, 1); }
 .Château-Galoupet-5-hsla { color: hsla(0, 60, 61, 1); } 
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

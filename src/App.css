@@ -142,6 +142,23 @@ body {
         background-size: 500% auto;
         animation: textShine 5s ease-in-out infinite alternate;
     }
+    .title-linguagens h1 {
+        background: linear-gradient(to right,
+                red 20%,
+                rgb(255, 49, 49) 30%,
+                rgb(255, 73, 73) 70%,
+                rgb(238, 105, 105) 80%);
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 500;
+        text-align: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-size: 45px;
+        background-size: 500% auto;
+        animation: textShine 5s ease-in-out infinite alternate;
+    }
 
     .title-natureza h1 {
         background: linear-gradient(to right,
@@ -178,7 +195,7 @@ body {
         height: fit-content;
 
     }
-
+    
     .grid-humanas h2 {
         color: #BF0404;
         text-align: center;

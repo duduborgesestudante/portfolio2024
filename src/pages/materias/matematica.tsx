@@ -12,8 +12,8 @@ function Matematica1() {
                 <section>
                     <a target="_blank"  className="a-beatddoneckles" href="https://youtu.be/QD5ObRhKrgc">
                         <div className="grid-matematica">
-                            <img src={matematica1} alt="" />
                             <h2>Caça ao tesouro</h2>
+                            <img src={matematica1} alt="" />
                             <p>Nessa atividade produzimos um vídeo de caça ao tesouro usando coordenadas</p>
                         </div>
                     </a>
