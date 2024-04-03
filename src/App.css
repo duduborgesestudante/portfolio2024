@@ -23,7 +23,7 @@ body {
     }
 
     header {
-        width: 100vw;
+        width: 100;
     }
 
     * {
@@ -142,6 +142,7 @@ body {
         background-size: 500% auto;
         animation: textShine 5s ease-in-out infinite alternate;
     }
+
     .title-linguagens h1 {
         background: linear-gradient(to right,
                 red 20%,
@@ -195,7 +196,7 @@ body {
         height: fit-content;
 
     }
-    
+
     .grid-humanas h2 {
         color: #BF0404;
         text-align: center;
@@ -531,7 +532,7 @@ body {
         color: #F2EAE4;
         height: 50px;
         position: absolute;
-        width: 100%;
+        width: 100;
     }
 
     .foot {
