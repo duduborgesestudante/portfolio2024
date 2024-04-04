@@ -5,15 +5,20 @@ import natureza3 from "../../images/natureza3.png"
 
 
 import { Footer } from "../components/footer"
+import { Voltar } from "../components/voltar"
 function Natureza1() {
     return (
         <>
             <Header />
             <main>
+            <Voltar/>
+
                 <section className="title-natureza">
                     <h1>Natureza</h1>
                 </section>
                 <section>
+                    <div className="total-humanas">
+
                     <a target="_blank"  className="a-beatddoneckles" href="https://docs.google.com/document/d/1GqYUk4Fjr5e4UnWgsfuvT4XA0T4OJBY6e1RtwfgB0pM/edit?usp=sharing">
                         <div className="grid-natureza">
                             <h2>Atividade prática de resistores</h2>
@@ -27,7 +32,8 @@ function Natureza1() {
                         <div className="grid-natureza">
                             <h2>Meme sobre evolução</h2>
                             <img className="natureza2" src={natureza2} alt="" />
-                            <p>Criamos um meme sobre a evolução da especie seguindo o Darwinismo</p>
+                            <p>Criei um meme original e informativo sobre a Evolução, utilizando 
+                                humor e criatividade para satirizar, questionar ou celebrar essa jornada científica. </p>
                         </div>
                     </a>
                     <a target="_blank" className="a-beatddoneckles" href="https://www.canva.com/design/DAF9bEs8z_Q/57lAkXSCv734cZ_nv_jy2Q/edit?utm_content=DAF9bEs8z_Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
@@ -37,8 +43,13 @@ function Natureza1() {
                             <p>
                                 Uma Apresentação de revisão sobre o que vimos em química orgânica
                             </p>
+                            
                         </div>
+                            
+
                     </a>
+                    </div>
+
                 </section>
             </main>
             <Footer />

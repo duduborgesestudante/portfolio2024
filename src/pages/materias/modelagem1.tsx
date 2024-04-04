@@ -1,15 +1,20 @@
 import { Header } from "../components/header"
 import sem from "../../images/semAtv.png"
+import { Voltar } from "../components/voltar"
 function Modelagem1() {
     return (
         <>
        <Header/>
      
        <main>
+       <Voltar/>
+
                 <section className="title-desi">
                     <h1>Modelagem de sistemas</h1>
                 </section>
                 <section>
+                <div className="total-humanas">
+
                     <a className="a-beatddoneckles" >
                         <div className="grid-natureza">
                             <h2>Sem atividade</h2>
@@ -32,6 +37,7 @@ function Modelagem1() {
                         </div>
 
                     </a>
+                    </div>
                 </section>
             </main>
         

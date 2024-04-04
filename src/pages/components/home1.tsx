@@ -177,7 +177,7 @@ function Home1() {
                 <div  onClick={manutencao1} className='carrosselimg'>
                   <div>
                     <GrSystem size={30} />
-                    <p>Implementação e manutenção de software</p>
+                    <p>Implatação e manutenção de sistemas</p>
                     
                   </div>
                 </div >
@@ -250,7 +250,7 @@ function Home1() {
 
               <div>
                 <GrSystem size={60} />
-                <p>Implementação e manutenção de software</p>
+                <p>Implatação e manutenção de sistemas</p>
               </div>
 
             </div >

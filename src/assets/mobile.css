@@ -212,6 +212,23 @@ box-shadow: 1px 1px 10px 1px #7302023a;
 
 }
 
+
+.grid-linguagens h2 {
+    color: #BF0404;
+
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.grid-linguagens p {
+    width: 80%;
+    color: #730202;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 10px;
+}
+
 .grid-humanas2 {
     box-shadow: 1px 1px 10px 1px #7302023a;
     padding: 15px 10px;

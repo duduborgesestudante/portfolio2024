@@ -5,20 +5,24 @@ import humanas3 from "../../images/humanas3.png"
 
 
 import { Footer } from "../components/footer"
+import { Voltar } from "../components/voltar"
 
 function Humanas1() {
     return (
         <>
             <Header />
             <main>
+            <Voltar/>
+
                 <section className="title-humanas">
                     <h1>Humanas</h1>
                 </section>
+
                 <section>
                     <div className="total-humanas">
                         
                         <a target="_blank"  className="a-beatddoneckles" href="https://docs.google.com/presentation/d/16KeuIyuRsdEWu-yYq13cmajcMLn0RZYuU7g9Dg9Ikdk/edit?usp=sharing">
-                        <div className="grid-humanas2">
+                        <div className="grid-humanas">
                             <h2>Seminário GeoPolitica</h2>
                             <img  src={humanas1} alt="" />
                             <p >Comparamos as diversas regiões geopolíticas
@@ -35,7 +39,7 @@ function Humanas1() {
                         </div>
                         </a>
                         <a target="_blank"  className="a-beatddoneckles" href="https://docs.google.com/document/d/1UoqXACD4e7wVjDwKct3_AuVv4eJyGPmHqRQ65TFAM-Y/edit?usp=sharing">
-                        <div className="grid-humanas3">
+                        <div className="grid-humanas">
                             <h2>A Grande Guerra (Filme 1917)</h2>
                             <img  src={humanas3} alt="" />
                             <p >Algumas questões sobre o filme que assistimos em aula, sobre a primeira guerra mundial</p>

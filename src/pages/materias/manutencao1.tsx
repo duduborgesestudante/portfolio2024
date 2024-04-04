@@ -1,5 +1,6 @@
 import { Header } from "../components/header"
 import sem from "../../images/semAtv.png"
+import { Voltar } from "../components/voltar"
 
 
 function Manutencao() {
@@ -7,10 +8,14 @@ function Manutencao() {
         <>
         <Header/>
         <main>
+        <Voltar/>
+
         <section className="title-desi">
-                    <h1>Implementação e manutenção de sistemas</h1>
+                    <h1>Implantação e manutenção de sistemas</h1>
                 </section>
                 <section>
+                <div className="total-humanas">
+
                     <a className="a-beatddoneckles" >
                         <div className="grid-natureza">
                             <h2>Sem atividade</h2>
@@ -33,6 +38,7 @@ function Manutencao() {
                         </div>
 
                     </a>
+                    </div>
                 </section>
          </main>
         </>
