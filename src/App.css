@@ -25,10 +25,14 @@ body {
     header {
         width: 100;
     }
-    header a, header h2{
+
+    header a,
+    header h2 {
         cursor: pointer;
     }
-    header a:hover, header h2:hover{
+
+    header a:hover,
+    header h2:hover {
         color: #000;
     }
 
@@ -80,7 +84,7 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        width: 80%;
+        width: 85%;
         margin: auto;
         height: 700px;
         padding-bottom: 40px;
@@ -204,16 +208,18 @@ body {
         background-size: 500% auto;
         animation: textShine 3s ease-in-out infinite alternate;
     }
+
     .total-humanas {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap ;
+        flex-wrap: wrap;
         margin: auto;
 
         width: 90%;
         justify-content: space-around;
-      
+
     }
+
     .a-beatddoneckles {
         margin: auto;
         color: black;
@@ -231,7 +237,7 @@ body {
         display: flex;
         flex-direction: column;
         height: 90%;
-        
+
 
     }
 
@@ -366,31 +372,34 @@ body {
         text-align: justify;
         font-size: 10px;
     }
-    .retrato{
+
+    .retrato {
         margin: auto;
         width: 67%;
     }
-    .grid-linguagens{
+
+    .grid-linguagens {
         text-align: center;
-    box-shadow: 1px 1px 10px 1px #7302023a;
+        box-shadow: 1px 1px 10px 1px #7302023a;
         padding: 15px 10px;
-        
+
         border-radius: 5px;
-        margin: 15px auto ;
-        width: 70%;
+        margin: 15px auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 90%;
-    
+
     }
+
     .grid-linguagens h2 {
         color: #BF0404;
-    
+
         text-align: center;
         width: 100%;
         margin-bottom: 10px;
     }
-    
+
     .grid-linguagens p {
         width: 80%;
         color: #730202;
@@ -398,6 +407,7 @@ body {
         text-align: justify;
         font-size: 10px;
     }
+
     .natureza2 {
         margin: auto;
         width: 50%;
@@ -417,7 +427,7 @@ body {
         text-align: center;
     }
 
-   
+
 
 
     .nav-mobile {
@@ -570,11 +580,13 @@ body {
         padding-top: 80px;
         margin-left: 10px;
     }
-.voltar{
-    position: absolute;
-    left: 10px;
-    top: 10%;
-}
+
+    .voltar {
+        position: absolute;
+        left: 10px;
+        top: 10%;
+    }
+
     .main2 {
         width: 100;
         height: 100vh;
@@ -603,7 +615,7 @@ body {
         background: #730202;
         color: #F2EAE4;
         height: 60px;
-        
+
         width: 100%;
         position: absolute;
     }
@@ -614,12 +626,12 @@ body {
         font-size: 2rem;
         width: 60%;
         display: flex;
-        justify-content:center ;
+        justify-content: center;
         gap: 30px;
     }
 
     .foot a {
-        margin: 0 ;
+        margin: 0;
     }
 
     .open-nav {
