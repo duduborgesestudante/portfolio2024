@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { HiMenuAlt2 } from 'react-icons/hi';
-
+import curriculo from "../../../curriculo.pdf"
 function Header() {
   const navigate = useNavigate()
   const [nav, setNav] = useState(false)
@@ -39,7 +39,7 @@ function Header() {
             <div className='close-nav'>
               <IoMdClose className='animate__pulse animate__animated open-nav' color='#F2EAE4' onClick={abrirNav} size={40} />
               <h2 onClick={paginicial}>Portfólio</h2>
-              <a href="curriculo.pdf" target="_blank" className='download'  >
+              <a href={curriculo} target="_blank" className='download'  >
                 <MdOutlineContactPage color='#F2EAE4' size={40} />
               </a>
 
@@ -68,7 +68,7 @@ function Header() {
             <div className='div-nav'>
               <HiMenuAlt2 className='animate__pulse animate__animated open-nav' color='#F2EAE4' onClick={abrirNav} size={40} />
               <h2 onClick={paginicial}>Portfólio</h2>
-              <a href="curriculo.pdf" target="_blank" className='download'  >
+              <a href={curriculo} target="_blank" className='download'  >
                 <MdOutlineContactPage color='#F2EAE4' size={40} />
               </a>
             </div>
@@ -86,7 +86,7 @@ function Header() {
           {/* <div>
             <h2 id='title' onClick={paginicial}>Portfólio</h2>
           </div> */}
-          <a href={"../../../curriculo.pdf"} download="curriculo.pdf" target="_blank" className='download'>
+          <a href={curriculo} download="curriculo.pdf" target="_blank" className='download'>
             <div className='curriculo-div'>
               <h2>Currículo ➡</h2>
               <MdOutlineContactPage color='#F2EAE4' size={40} />
