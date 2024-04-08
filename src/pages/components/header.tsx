@@ -86,10 +86,12 @@ function Header() {
           {/* <div>
             <h2 id='title' onClick={paginicial}>Portfólio</h2>
           </div> */}
-          <div className='curriculo-div'>
-            <h2>Currículo ➡</h2>
-            <a href={"../../curriculo.pdf"} download="curriculo.pdf" target="_blank" className='download'><MdOutlineContactPage color='#F2EAE4' size={40} /></a>
-          </div>
+          <a href={"../../../curriculo.pdf"} download="curriculo.pdf" target="_blank" className='download'>
+            <div className='curriculo-div'>
+              <h2>Currículo ➡</h2>
+              <MdOutlineContactPage color='#F2EAE4' size={40} />
+            </div>
+          </a>
         </div>
       </nav>
     </header>
