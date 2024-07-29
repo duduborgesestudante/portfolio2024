@@ -1,7 +1,10 @@
 import { createBrowserRouter } from "react-router-dom"
+
+
+
 import { PrimeiroTri } from "./pages/PrimeiroTri"
 import { Natureza1 } from "./pages/materias/natureza1"
-
+import { Ppe } from "./pages/materias/ppe"
 import { SegundoTri } from "./pages/SegundoTri"
 import { TerceiroTri } from "./pages/TerceiroTri"
 import { Manutencao } from "./pages/materias/manutencao1"
@@ -54,6 +57,10 @@ const router = createBrowserRouter([
   {
     path: '/manutencao1',
     element: <Manutencao />,
+  },
+  {
+    path: '/ppe',
+    element: <Ppe />,
   },
 
 
