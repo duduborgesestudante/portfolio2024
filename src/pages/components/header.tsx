@@ -79,7 +79,7 @@ function Header() {
         <div className='div-nav'>
           <div>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
-            <a href="/primeiro"><h2>Primeiro Trimestre 2024</h2></a>
+            <a href="/primeiro" target='_blank'><h2>Primeiro Trimestre 2024</h2></a>
             <h2 onClick={segundo}>(Segundo Trimestre 2024)</h2>
             <h2 onClick={terceiro}>Terceiro Trimestre 2024</h2>
           </div>

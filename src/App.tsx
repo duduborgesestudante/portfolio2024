@@ -14,6 +14,7 @@ import { Matematica1 } from "./pages/materias/matematica"
 
 import { Linguagens1 } from "./pages/materias/linguagens1"
 import { Humanas1 } from "./pages/materias/humanas1"
+import { BancoDeDados } from "./pages/materias/db"
 
 
 const router = createBrowserRouter([
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
   {
     path: '/manutencao1',
     element: <Manutencao />,
+  },
+  {
+    path: '/db',
+    element: <BancoDeDados />,
   },
   {
     path: '/ppe',

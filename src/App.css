@@ -281,7 +281,8 @@ body {
         color: #730202;
         margin: 0 auto;
         text-align: justify;
-        font-size: 10px;
+        font-size: 15px;
+
     }
 
     .grid-humanas3 {
@@ -315,7 +316,8 @@ body {
         width: 80%;
         margin: 0 auto;
         text-align: justify;
-        font-size: 10px;
+        font-size: 15px;
+
     }
 
     .grid-matematica {
@@ -343,7 +345,8 @@ body {
         width: 80%;
         margin: 0 auto;
         text-align: justify;
-        font-size: 10px;
+        font-size: 15px;
+
     }
 
     .grid-natureza {
@@ -370,7 +373,8 @@ body {
         width: 80%;
         margin: 0 auto;
         text-align: justify;
-        font-size: 10px;
+        font-size: 15px;
+
     }
 
     .retrato {
@@ -405,7 +409,8 @@ body {
         color: #730202;
         margin: 0 auto;
         text-align: justify;
-        font-size: 10px;
+        font-size: 15px;
+
     }
 
     .natureza2 {
@@ -584,7 +589,7 @@ body {
     .voltar {
         position: absolute;
         left: 10px;
-        top: 10%;
+        top: 12%;
     }
 
     .main2 {
@@ -616,7 +621,7 @@ body {
         color: #F2EAE4;
         height: 60px;
         width: 100%;
-        
+
     }
 
     .foot {

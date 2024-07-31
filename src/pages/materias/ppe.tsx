@@ -1,6 +1,6 @@
 import { Header } from "../components/header";
 import { Voltar } from "../components/voltar";
-
+import sem from '../../images/semAtv.png'
 function Ppe() {
     return (
         <>
@@ -16,7 +16,7 @@ function Ppe() {
                         <a className="a-beatddoneckles" >
                             <div className="grid-natureza">
                                 <h2>Sem atividade</h2>
-                                <img src={''} alt="" />
+                                <img src={sem} alt="" />
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                     Nemo aperiam quam consequatur esse facilis recusandae
                                     blanditiis, magni voluptatum
@@ -29,4 +29,4 @@ function Ppe() {
         </>
     )
 }
-export {Ppe}
+export { Ppe }

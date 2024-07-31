@@ -13,6 +13,7 @@ import { GoFileCode } from 'react-icons/go';
 import { Footer } from './footer';
 import { useNavigate } from 'react-router-dom';
 import { SlNotebook } from 'react-icons/sl';
+import { FaDatabase } from 'react-icons/fa';
 
 function Home2() {
 
@@ -40,6 +41,9 @@ function Home2() {
     }
     const ppe = () => {
         irPara("/ppe")
+    }
+    const db = () => {
+        irPara("/db")
     }
 
 
@@ -262,12 +266,19 @@ function Home2() {
                                 <p>Implatação e manutenção de sistemas</p>
                             </div>
                         </div >
+                        <div onClick={db} className='card-materia'>
+                            <div>
+                                <FaDatabase color='purple' size={60} />
+                                <p>Banco de dados</p>
+                            </div>
+                        </div >
                         <div onClick={ppe} className='card-materia'>
                             <div>
                                 <SlNotebook color='indigo' size={60} />
                                 <p>PPE</p>
                             </div>
                         </div >
+
                     </div>
                 </section >
             </main >
