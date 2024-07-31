@@ -20,11 +20,11 @@ const router = createBrowserRouter([
 
   {
     path: '/',
-    element: <PrimeiroTri />,
+    element: <SegundoTri />,
   },
   {
-    path: '/segundo',
-    element: <SegundoTri />,
+    path: '/primeiro',
+    element: <PrimeiroTri />,
   },
   {
     path: '/terceiro',
