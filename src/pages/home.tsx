@@ -58,11 +58,11 @@ function Home() {
           </div>
 
           <div>
-            <Carousel className='carrosselimg-group' show={2} draggable={true} swipeable={true} infinite={false} slide={2} swiping={true}>
+            <Carousel className='carrosselimg-group' show={2} infinite={false} slide={2} swiping={true}>
               <div className='carrosselimg'>
                 <div>
 
-                  <GiCarpetBombing onClick={irpara("/humanas1")} size={30} />
+                  <GiCarpetBombing size={30} />
                   <p>Humanas</p>
 
                 </div>

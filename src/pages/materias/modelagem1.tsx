@@ -1,5 +1,4 @@
 import { Header } from "../components/header"
-import sem from "../../images/semAtv.png"
 import modelagem1 from '../../images/modelagem1.png'
 import modelagem2 from '../../images/modelagem2.png'
 import modelagem3 from '../../images/modelagem3.png'
