@@ -10,7 +10,6 @@ import { MdScience } from 'react-icons/md';
 import { GrSystem } from 'react-icons/gr';
 import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
-import { useNavigate } from 'react-router-dom';
 import { Header } from './components/header';
 
 function Home() {
