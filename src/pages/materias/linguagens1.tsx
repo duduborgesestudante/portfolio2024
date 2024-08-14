@@ -1,7 +1,6 @@
 import { Header } from "../components/header"
 import linguagens1 from "../../images/linguagens1.jpg"
 import linguagens2 from "../../images/linguagens2.png"
-import sem from "../../images/semAtv.png"
 import redacao from "../../images/notaenem.png"
 import { Footer } from "../components/footer"
 import { Voltar } from "../components/voltar"

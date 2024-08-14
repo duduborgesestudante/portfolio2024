@@ -1,5 +1,4 @@
 import { Header } from "../components/header"
-import sem from "../../images/semAtv.png"
 import { Voltar } from "../components/voltar"
 import db1 from '../../images/db1.png'
 import db2 from '../../images/db2.png'
