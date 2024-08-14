@@ -2,6 +2,7 @@ import { Header } from "../components/header"
 import sem from "../../images/semAtv.png"
 import modelagem1 from '../../images/modelagem1.png'
 import modelagem2 from '../../images/modelagem2.png'
+import modelagem3 from '../../images/modelagem3.png'
 
 
 
@@ -36,6 +37,15 @@ function Modelagem1() {
                                 <img src={modelagem2} alt="" />
                                 <p>
                                     Fizemos um Wireframe de alta fidelidade para as telas da nossa S.A. para a prototipagem do nosso projeto
+                                </p>
+                            </div>
+                        </a>
+                        <a className="a-beatddoneckles" href="https://docs.google.com/spreadsheets/d/1UEnapLpiBO3YyAnkfrJY2nIqgz-noBi4OciO4-feW1g/edit?gid=0#gid=0" >
+                            <div className="grid-natureza">
+                                <h2>Regra de Negocio</h2>
+                                <img src={modelagem3} alt="" />
+                                <p>
+                                    Fizemos a regra de negócio da nossa S.A.
                                 </p>
                             </div>
                         </a>
