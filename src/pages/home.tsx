@@ -14,11 +14,6 @@ import { useNavigate } from 'react-router-dom';
 import { Header } from './components/header';
 
 function Home() {
-  const navigate = useNavigate()
-
-  function irpara(pag: string) {
-    navigate(pag)
-  }
 
   return (
     <>
