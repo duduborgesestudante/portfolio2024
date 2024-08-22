@@ -1,17 +1,18 @@
 import { useState } from 'react';
 import { IoMdClose } from "react-icons/io";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import curriculo from "../../../curriculo.pdf"
 function Header() {
   const navigate = useNavigate()
   const [nav, setNav] = useState(false)
-
+  const location = useLocation();
+  const isRouteActive = (path: any) => location.pathname === path;
   const irPara = useNavigate();
   const segundo = () => {
-    irPara("/")
+    irPara("/segundo")
   }
   const terceiro = () => {
     irPara("/terceiro")
@@ -50,9 +51,9 @@ function Header() {
               <div className='itens-nav'>
                 <a href="https://porfolio-segundo-ano.netlify.app/"><p>Portfolio 2023</p></a>
                 <h3>Portfolio por  Trimestre </h3>
-                <a href="/primeiro"><p>Primeiro Trimestre 2024</p></a>
-                <a><p onClick={segundo}>Segundo Trimestre 2024</p></a>
-                <a><p onClick={terceiro}>Terceiro Trimestre 2024</p></a>
+                <a href="/"><p style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</p></a>
+                <a><p style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>Segundo Trimestre 2024</p></a>
+                <a><p style={{ color: isRouteActive('/terceiro') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</p></a>
               </div>
 
               <div className='nav-icons'>
@@ -79,9 +80,9 @@ function Header() {
         <div className='div-nav'>
           <div>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
-            <a href="/primeiro" target='_blank'><h2>Primeiro Trimestre 2024</h2></a>
-            <h2 onClick={segundo}>(Segundo Trimestre 2024)</h2>
-            <h2 onClick={terceiro}>Terceiro Trimestre 2024</h2>
+            <a href="/" target='_blank'><h2 style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</h2></a>
+            <h2 style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>(Segundo Trimestre 2024)</h2>
+            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</h2>
           </div>
           {/* <div>
             <h2 id='title' onClick={paginicial}>Portfólio</h2>
@@ -94,7 +95,7 @@ function Header() {
           </a>
         </div>
       </nav>
-    </header>
+    </header >
   )
 }
 export { Header }

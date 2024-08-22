@@ -34,13 +34,6 @@ function Linguagens1() {
                                 <p>Cada grupo deve pesquisar e criar uma apresentação com os seguintes itens relativos à obra estudada</p>
                             </div>
                         </a>
-                        <a className="a-beatddoneckles" >
-                            <div className="grid-linguagens">
-                                <h2>Nota Redação</h2>
-                                <img src={redacao} alt="" />
-                                <p>Aqui temos a nota do nosso simulado de redação</p>
-                            </div>
-                        </a>
                     </div>
 
                 </section>
