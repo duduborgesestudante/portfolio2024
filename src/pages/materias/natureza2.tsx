@@ -1,6 +1,4 @@
 import { Header } from "../components/header"
-import natureza1 from "../../images/natureza1.png"
-import natureza2 from "../../images/natureza2.png"
 import natureza3 from "../../images/natureza3.png"
 import natureza4 from "../../images/natureza5.png"
 import natureza5 from "../../images/natureza4.png"

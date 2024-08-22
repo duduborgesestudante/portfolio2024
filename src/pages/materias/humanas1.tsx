@@ -1,9 +1,6 @@
 import { Header } from "../components/header"
 import humanas1 from "../../images/humanas1.png"
 import humanas2 from "../../images/humanas2.png"
-import humanas3 from "../../images/humanas3.png"
-import humanas4 from "../../images/humanas4.png"
-import humanas5 from "../../images/humanas5.png"
 
 
 

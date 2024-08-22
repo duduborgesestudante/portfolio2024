@@ -1,6 +1,4 @@
 import { Header } from "../components/header"
-import desi1 from "../../images/desi1.png"
-import desi2 from "../../images/desi2.png"
 import desi3 from "../../images/desi3.png"
 import desi4 from "../../images/desi4.png"
 import desi5 from "../../images/desi5.png"

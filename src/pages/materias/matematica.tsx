@@ -1,7 +1,5 @@
 import { Header } from "../components/header"
 import matematica1 from "../../images/matematica1.png"
-import matematica2 from "../../images/matematica2.jpg"
-import matematica3 from "../../images/Matematica3.png"
 
 
 import { Footer } from "../components/footer"
