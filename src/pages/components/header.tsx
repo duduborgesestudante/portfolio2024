@@ -4,7 +4,16 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useLocation, useNavigate } from 'react-router-dom';
 import { MdOutlineContactPage } from 'react-icons/md';
 import { HiMenuAlt2 } from 'react-icons/hi';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 import curriculo from "../../../curriculo.pdf"
+import { DialogClose, DialogDescription } from '@radix-ui/react-dialog';
 function Header() {
   const navigate = useNavigate()
   const [nav, setNav] = useState(false)
@@ -20,6 +29,9 @@ function Header() {
 
   function paginicial() {
     navigate("/")
+  }
+  function Ppe() {
+    navigate("/ppe")
   }
 
   function abrirNav() {
@@ -54,6 +66,8 @@ function Header() {
                 <a href="/"><p style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</p></a>
                 <a><p style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>Segundo Trimestre 2024</p></a>
                 <a><p style={{ color: isRouteActive('/terceiro') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</p></a>
+                <a><p style={{ color: isRouteActive('/terceiro') ? 'gray' : 'white' }} onClick={Ppe}>PPE 2024</p></a>
+
               </div>
 
               <div className='nav-icons'>
@@ -78,21 +92,30 @@ function Header() {
       </nav>
       <nav className='web-nav'>
         <div className='div-nav'>
-          <div>
+          <div className='font-bold'>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
             <a href="/" ><h2 style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</h2></a>
             <h2 style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>(Segundo Trimestre 2024)</h2>
             <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</h2>
+            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={Ppe}>PPE</h2>
           </div>
-          {/* <div>
-            <h2 id='title' onClick={paginicial}>Portfólio</h2>
-          </div> */}
-          <a href={curriculo} download="curriculo.pdf" target="_blank" className='download'>
-            <div className='curriculo-div'>
+          <Dialog>
+            <DialogTrigger className='flex mr-3'>
               <h2>Currículo ➡</h2>
               <MdOutlineContactPage color='#F2EAE4' size={40} />
-            </div>
-          </a>
+            </DialogTrigger>
+            <DialogContent className='bg-[#730202] border-[#670900] border-[8px] rounded-2xl h-[200px] w-fit px-10 flex justify-between items-baseline flex-col'>
+              <DialogHeader>
+                <DialogTitle className='text-white text-center text-3xl'>Tem certeza que deseja baixar meu curriculo?</DialogTitle>
+                <DialogDescription className='flex justify-around pt-8 items-end'>
+                  <a href={curriculo} download="curriculo.pdf" target="_blank" className='bg-[#F2EAE4] px-8 py-2 rounded-[8px]'><DialogClose>Sim</DialogClose></a>
+                  <DialogClose className='bg-[#F2EAE4] px-8 p-2 rounded-[8px]'>Não</DialogClose>
+
+                </DialogDescription>
+              </DialogHeader>
+            </DialogContent>
+          </Dialog>
+
         </div>
       </nav>
     </header >

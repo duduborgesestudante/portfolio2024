@@ -58,7 +58,7 @@ function Natureza2() {
                                     Fizemos um mapa mental sobre circuitos eletricos. Gostei de fazer, aprendi bastante sobre o assunto
                                 </p>
                                 <br />
-                                <p>Habilidades: <b>H36</b></p>
+                                <p>Habilidades: <b>H35</b></p>
                             </div>
                         </a>
                     </div>

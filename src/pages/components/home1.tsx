@@ -173,14 +173,14 @@ function Home1() {
                   <BiNetworkChart color='cyan' size={30} />
                   <p>Modelagem de sistemas</p>
                 </div>
-              </div >                
-                <div  onClick={manutencao1} className='carrosselimg'>
-                  <div>
-                    <GrSystem size={30} />
-                    <p>Implatação e manutenção de sistemas</p>
-                    
-                  </div>
-                </div >
+              </div >
+              <div onClick={manutencao1} className='carrosselimg'>
+                <div>
+                  <GrSystem size={30} />
+                  <p>Implatação e manutenção de sistemas</p>
+
+                </div>
+              </div >
 
             </Carousel >
             <center>
@@ -192,7 +192,7 @@ function Home1() {
           <div className='materias-web'>
 
             <div onClick={humanas1} className='card-materia'>
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
                 <GiCarpetBombing color='orange' size={60} />
                 <p>Humanas</p>
               </div>
@@ -200,7 +200,7 @@ function Home1() {
 
 
             <div onClick={matematica1} className='card-materia'>
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
 
                 <PiMathOperationsFill color='blue' size={60} />
                 <p>Matematica</p>
@@ -209,7 +209,7 @@ function Home1() {
             </div>
 
             <div className='card-materia' onClick={natureza1}>
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
 
                 <MdScience color='lime' size={60} />
                 <p>Natureza</p>
@@ -219,8 +219,7 @@ function Home1() {
 
 
             <div onClick={linguagens1} className='card-materia'>
-
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
                 <IoLanguage color='red' size={60} />
                 <p>Linguagens</p>
               </div>
@@ -229,7 +228,7 @@ function Home1() {
 
 
             <div onClick={desi1} className='card-materia'>
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
 
                 <GoFileCode color='darkblue' size={60} />
                 <p>Desenvolvimento de sistemas</p>
@@ -238,7 +237,8 @@ function Home1() {
             </div >
 
             <div onClick={modelagem1} className='card-materia'>
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'
+              >
 
                 <BiNetworkChart color='cyan' size={60} />
                 <p>Modelagem de sistemas</p>
@@ -247,8 +247,7 @@ function Home1() {
             </div >
 
             <div onClick={manutencao1} className='card-materia'>
-
-              <div>
+              <div className='justify-center items-center flex text-center flex-col'>
                 <GrSystem size={60} />
                 <p>Implatação e manutenção de sistemas</p>
               </div>

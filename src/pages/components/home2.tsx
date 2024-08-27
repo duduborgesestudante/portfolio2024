@@ -205,16 +205,16 @@ function Home2() {
 
                     <div className='materias-web'>
 
-                        <div onClick={humanas2} className='card-materia'>
-                            <div>
+                        <div onClick={humanas2} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
                                 <GiCarpetBombing color='orange' size={60} />
                                 <p>Humanas</p>
                             </div>
                         </div>
 
 
-                        <div onClick={matematica2} className='card-materia'>
-                            <div>
+                        <div onClick={matematica2} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
 
                                 <PiMathOperationsFill color='blue' size={60} />
                                 <p>Matematica</p>
@@ -222,8 +222,8 @@ function Home2() {
                             </div>
                         </div>
 
-                        <div className='card-materia' onClick={natureza2}>
-                            <div>
+                        <div className='card-materia ' onClick={natureza2}>
+                            <div className='justify-center items-center flex text-center flex-col'>
 
                                 <MdScience color='lime' size={60} />
                                 <p>Natureza</p>
@@ -232,9 +232,8 @@ function Home2() {
                         </div>
 
 
-                        <div onClick={linguagens2} className='card-materia'>
-
-                            <div>
+                        <div onClick={linguagens2} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
                                 <IoLanguage color='red' size={60} />
                                 <p>Linguagens</p>
                             </div>
@@ -242,8 +241,8 @@ function Home2() {
                         </div >
 
 
-                        <div onClick={desi2} className='card-materia'>
-                            <div>
+                        <div onClick={desi2} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
 
                                 <GoFileCode color='darkblue' size={60} />
                                 <p>Desenvolvimento de sistemas</p>
@@ -251,8 +250,8 @@ function Home2() {
                             </div>
                         </div >
 
-                        <div onClick={modelagem1} className='card-materia'>
-                            <div>
+                        <div onClick={modelagem1} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
 
                                 <BiNetworkChart color='cyan' size={60} />
                                 <p>Modelagem de sistemas</p>
@@ -260,25 +259,18 @@ function Home2() {
                             </div>
                         </div >
 
-                        <div onClick={manutencao2} className='card-materia'>
-                            <div>
+                        <div onClick={manutencao2} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
                                 <GrSystem size={60} />
                                 <p>Implatação e manutenção de sistemas</p>
                             </div>
                         </div >
-                        <div onClick={db} className='card-materia'>
-                            <div>
+                        <div onClick={db} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
                                 <FaDatabase color='purple' size={60} />
                                 <p>Banco de dados</p>
                             </div>
                         </div >
-                        <div onClick={ppe} className='card-materia'>
-                            <div>
-                                <SlNotebook color='indigo' size={60} />
-                                <p>PPE</p>
-                            </div>
-                        </div >
-
                     </div>
                 </section >
             </main >
