@@ -39,9 +39,6 @@ function Home2() {
     const manutencao2 = () => {
         irPara("/manutencao2")
     }
-    const ppe = () => {
-        irPara("/ppe")
-    }
     const db = () => {
         irPara("/db")
     }
