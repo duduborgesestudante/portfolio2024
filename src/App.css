@@ -238,9 +238,8 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 90%;
-
-
+        height: fit-content;
+        gap: 10px
     }
 
     .grid-humanas h2 {
@@ -255,19 +254,20 @@ body {
         width: 80%;
         margin: 10px auto;
         text-align: justify;
+        height: fit-content;
         font-size: 15px;
     }
 
     .grid-humanas2 {
         box-shadow: 1px 1px 10px 1px #7302023a;
         padding: 15px 10px;
-        margin: 10px auto 10px 80px;
+        margin: 10px 0 10px 0;
         border-radius: 5px;
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: fit-content;
-
+        gap: 10px
     }
 
     .grid-humanas2 h2 {
@@ -290,12 +290,13 @@ body {
     .grid-humanas3 {
         box-shadow: 1px 1px 10px 1px #7302023a;
         padding: 15px 10px;
-        margin: 10px auto 10px 80px;
+        margin: 10px 0 10px 0;
         border-radius: 5px;
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: fit-content;
+        gap: 10px
     }
 
     .grid-humanas3 img {
@@ -330,8 +331,8 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 90%;
-
+        height: fit-content;
+        gap: 10px
     }
 
     .grid-matematica h2 {
@@ -343,7 +344,6 @@ body {
 
     .grid-matematica p {
         color: #730202;
-
         width: 80%;
         margin: 0 auto;
         text-align: justify;
@@ -359,8 +359,8 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 90%;
-
+        height: fit-content;
+        gap: 10px
     }
 
     .cartaz {
@@ -407,14 +407,13 @@ body {
         text-align: center;
         box-shadow: 1px 1px 10px 1px #7302023a;
         padding: 15px 10px;
-
+        margin: 10px 0 10px 0;
         border-radius: 5px;
-        margin: 15px auto;
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 90%;
-
+        height: fit-content;
+        gap: 10px
     }
 
     .grid-linguagens h2 {

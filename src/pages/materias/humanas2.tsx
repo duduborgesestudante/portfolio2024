@@ -1,5 +1,4 @@
 import { Header } from "../components/header"
-import humanas3 from "../../images/humanas3.png"
 import humanas4 from "../../images/humanas4.png"
 import humanas5 from "../../images/humanas5.png"
 
@@ -22,13 +21,7 @@ function Humanas2() {
 
                 <section>
                     <div className="total-humanas">
-                        <a target="_blank" className="a-beatddoneckles" href="https://docs.google.com/document/d/1UoqXACD4e7wVjDwKct3_AuVv4eJyGPmHqRQ65TFAM-Y/edit?usp=sharing">
-                            <div className="grid-humanas">
-                                <h2>A Grande Guerra (Filme 1917)</h2>
-                                <img src={humanas3} alt="" />
-                                <p >Algumas questões sobre o filme que assistimos em aula, sobre a primeira guerra mundial</p>
-                            </div>
-                        </a>
+
                         <a target="_blank" className="a-beatddoneckles" href="https://www.canva.com/design/DAGHF0Tviek/AaclKRZA8ktoc-rx1iWnjA/edit?utm_content=DAGHF0Tviek&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                             <div className="grid-humanas">
                                 <h2>Regimes totalitaristas</h2>

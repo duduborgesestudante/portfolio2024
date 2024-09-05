@@ -1,6 +1,7 @@
 import { Header } from "../components/header"
 import humanas1 from "../../images/humanas1.png"
 import humanas2 from "../../images/humanas2.png"
+import humanas3 from "../../images/humanas3.png"
 
 
 
@@ -27,6 +28,13 @@ function Humanas1() {
                                 <img src={humanas1} alt="" />
                                 <p >Comparamos as diversas regiões geopolíticas
                                     visando comparar a atual conjuntura geopolítica com o histórico pregresso das ordens mundiais</p>
+                            </div>
+                        </a>
+                        <a target="_blank" className="a-beatddoneckles" href="https://docs.google.com/document/d/1UoqXACD4e7wVjDwKct3_AuVv4eJyGPmHqRQ65TFAM-Y/edit?usp=sharing">
+                            <div className="grid-humanas">
+                                <h2>A Grande Guerra (Filme 1917)</h2>
+                                <img src={humanas3} alt="" />
+                                <p >Algumas questões sobre o filme que assistimos em aula, sobre a primeira guerra mundial</p>
                             </div>
                         </a>
                         <a target="_blank" className="a-beatddoneckles" href="https://www.canva.com/design/DAF-jnRoFh0/UJjXdZdkPMZHwfLiK_gfZg/edit?utm_content=DAF-jnRoFh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
