@@ -94,10 +94,10 @@ function Header() {
         <div className='div-nav'>
           <div className='font-bold'>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
-            <a href="/" ><h2 style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</h2></a>
-            <h2 style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>(Segundo Trimestre 2024)</h2>
-            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</h2>
-            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={Ppe}>PPE</h2>
+            <a href="/" ><h2 style={{ color: isRouteActive('/') ? 'white' : 'gray' , textDecoration: isRouteActive('/') ? 'underline' : 'none' }}>Primeiro Trimestre 2024</h2></a>
+            <h2 style={{ color: isRouteActive('/segundo') ? 'white' : 'gray' , textDecoration: isRouteActive('/segundo') ? 'underline' : 'none' }} onClick={segundo}>Segundo Trimestre 2024</h2>
+            <h2 style={{ color: isRouteActive('/terceiro') ? 'white' : 'gray' , textDecoration: isRouteActive('/terceiro') ? 'underline' : 'none' }} onClick={terceiro}>Terceiro Trimestre 2024</h2>
+            <h2 style={{ color: isRouteActive('/ppe') ? 'white' : 'gray' , textDecoration: isRouteActive('/ppe') ? 'underline' : 'none' }} onClick={Ppe}>PPE</h2>
           </div>
           <Dialog>
             <DialogTrigger className='flex mr-3'>
