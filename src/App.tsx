@@ -20,6 +20,12 @@ import { Linguagens2 } from "./pages/materias/linguagens2"
 import { Natureza2 } from "./pages/materias/natureza2"
 import { Matematica2 } from "./pages/materias/matematica2"
 import { Desi2 } from "./pages/materias/desi2"
+import { Humanas3 } from "./pages/materias/humanas3"
+import { Linguagens3 } from "./pages/materias/linguagens3"
+import { Natureza3 } from "./pages/materias/natureza3"
+import { Matematica3 } from "./pages/materias/matematica3"
+import { Desi3 } from "./pages/materias/desi3"
+import { BancoDeDados3 } from "./pages/materias/db3"
 
 
 const router = createBrowserRouter([
@@ -87,6 +93,30 @@ const router = createBrowserRouter([
   {
     path: '/db',
     element: <BancoDeDados />,
+  },
+  {
+    path: '/humanas3',
+    element: <Humanas3 />,
+  },
+  {
+    path: '/linguagens3',
+    element: <Linguagens3 />,
+  },
+  {
+    path: '/natureza3',
+    element: <Natureza3 />,
+  },
+  {
+    path: '/matematica3',
+    element: <Matematica3 />,
+  },
+  {
+    path: '/desi3',
+    element: <Desi3 />,
+  },
+  {
+    path: '/db3',
+    element: <BancoDeDados3 />,
   },
   {
     path: '/ppe',

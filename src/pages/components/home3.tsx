@@ -18,29 +18,29 @@ import { FaDatabase } from 'react-icons/fa';
 function Home3() {
 
     const irPara = useNavigate();
-    const natureza2 = () => {
-        irPara("/natureza2")
+    const natureza3 = () => {
+        irPara("/natureza3")
     }
-    const linguagens2 = () => {
-        irPara("/linguagens2")
+    const linguagens3 = () => {
+        irPara("/linguagens3")
     }
-    const matematica2 = () => {
-        irPara("/matematica2")
+    const matematica3 = () => {
+        irPara("/matematica3")
     }
-    const humanas2 = () => {
-        irPara("/humanas2")
+    const humanas3 = () => {
+        irPara("/humanas3")
     }
-    const desi2 = () => {
-        irPara("/desi2")
+    const desi3 = () => {
+        irPara("/desi3")
     }
-    const modelagem1 = () => {
-        irPara("/modelagem1")
+    const modelagem3 = () => {
+        irPara("/modelagem3")
     }
-    const manutencao2 = () => {
-        irPara("/manutencao2")
+    const manutencao3 = () => {
+        irPara("/manutencao3")
     }
-    const db = () => {
-        irPara("/db")
+    const db3 = () => {
+        irPara("/db3")
     }
 
 
@@ -125,7 +125,7 @@ function Home3() {
 
                         <Carousel className='carrosselimg-group' show={2.03} infinite={false} slide={2.01} swiping={true}>
 
-                            <div onClick={humanas2} className='carrosselimg'>
+                            <div onClick={humanas3} className='carrosselimg'>
                                 <div>
                                     <GiCarpetBombing color='orange' size={30} />
                                     <p>Humanas</p>
@@ -133,7 +133,7 @@ function Home3() {
                             </div>
 
 
-                            <div onClick={matematica2} className='carrosselimg'>
+                            <div onClick={matematica3} className='carrosselimg'>
                                 <div>
 
                                     <PiMathOperationsFill color='blue' size={30} />
@@ -143,7 +143,7 @@ function Home3() {
                             </div>
 
 
-                            <div onClick={natureza2} className='carrosselimg'>
+                            <div onClick={natureza3} className='carrosselimg'>
                                 <div>
 
                                     <MdScience color='lime' size={30} />
@@ -153,7 +153,7 @@ function Home3() {
                             </div>
 
 
-                            <div onClick={linguagens2} className='carrosselimg'>
+                            <div onClick={linguagens3} className='carrosselimg'>
                                 <div>
                                     <IoLanguage color='red' size={30} />
                                     <p>Linguagens</p>
@@ -162,7 +162,7 @@ function Home3() {
 
 
 
-                            <div onClick={desi2} className='carrosselimg'>
+                            <div onClick={desi3} className='carrosselimg'>
                                 <div>
 
                                     <GoFileCode color='darkblue' size={30} />
@@ -173,20 +173,20 @@ function Home3() {
 
 
 
-                            <div onClick={modelagem1} className='carrosselimg'>
+                            <div onClick={modelagem3} className='carrosselimg'>
                                 <div>
                                     <BiNetworkChart color='cyan' size={30} />
                                     <p>Modelagem de sistemas</p>
                                 </div>
                             </div >
-                            <div onClick={manutencao2} className='carrosselimg'>
+                            <div onClick={manutencao3} className='carrosselimg'>
                                 <div>
                                     <GrSystem size={30} />
                                     <p>Implatação e manutenção de sistemas</p>
 
                                 </div>
                             </div >
-                            <div onClick={manutencao2} className='carrosselimg'>
+                            <div onClick={manutencao3} className='carrosselimg'>
                                 <div>
                                     <SlNotebook size={30} />
                                     <p>Ppe</p>
@@ -202,7 +202,7 @@ function Home3() {
 
                     <div className='materias-web'>
 
-                        <div onClick={humanas2} className='card-materia '>
+                        <div onClick={humanas3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <GiCarpetBombing color='orange' size={60} />
                                 <p>Humanas</p>
@@ -210,7 +210,7 @@ function Home3() {
                         </div>
 
 
-                        <div onClick={matematica2} className='card-materia '>
+                        <div onClick={matematica3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
 
                                 <PiMathOperationsFill color='blue' size={60} />
@@ -219,7 +219,7 @@ function Home3() {
                             </div>
                         </div>
 
-                        <div className='card-materia ' onClick={natureza2}>
+                        <div className='card-materia ' onClick={natureza3}>
                             <div className='justify-center items-center flex text-center flex-col'>
 
                                 <MdScience color='lime' size={60} />
@@ -229,7 +229,7 @@ function Home3() {
                         </div>
 
 
-                        <div onClick={linguagens2} className='card-materia '>
+                        <div onClick={linguagens3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <IoLanguage color='red' size={60} />
                                 <p>Linguagens</p>
@@ -238,7 +238,7 @@ function Home3() {
                         </div >
 
 
-                        <div onClick={desi2} className='card-materia '>
+                        <div onClick={desi3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
 
                                 <GoFileCode color='darkblue' size={60} />
@@ -247,7 +247,7 @@ function Home3() {
                             </div>
                         </div >
 
-                        <div onClick={modelagem1} className='card-materia '>
+                        <div onClick={modelagem3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
 
                                 <BiNetworkChart color='cyan' size={60} />
@@ -256,13 +256,13 @@ function Home3() {
                             </div>
                         </div >
 
-                        <div onClick={manutencao2} className='card-materia '>
+                        <div onClick={manutencao3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <GrSystem size={60} />
                                 <p>Implatação e manutenção de sistemas</p>
                             </div>
                         </div >
-                        <div onClick={db} className='card-materia '>
+                        <div onClick={db3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <FaDatabase color='purple' size={60} />
                                 <p>Banco de dados</p>

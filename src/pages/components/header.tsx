@@ -98,6 +98,7 @@ function Header() {
             <h2 style={{ color: isRouteActive('/segundo') ? 'white' : 'grey' }} className={`${isRouteActive('/segundo') ? 'underline underline-offset-4' : ''}`} onClick={segundo}>Segundo Trimestre 2024</h2>
             <h2 style={{ color: isRouteActive('/terceiro') ? 'white' : 'grey' }} className={`${isRouteActive('/terceiro') ? 'underline underline-offset-4' : ''}`} onClick={terceiro}>Terceiro Trimestre 2024</h2>
             <h2 style={{ color: isRouteActive('/ppe') ? 'white' : 'grey' }} className={`${isRouteActive('/ppe') ? 'underline underline-offset-4' : ''}`} onClick={Ppe}>PPE</h2>
+
           </div>
           <Dialog>
             <DialogTrigger className='flex mr-3'>
