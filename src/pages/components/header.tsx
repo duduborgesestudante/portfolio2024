@@ -92,12 +92,12 @@ function Header() {
       </nav>
       <nav className='web-nav'>
         <div className='div-nav'>
-          <div className='font-bold'>
+          <div className='font-bold flex m-3'>
             <a href="https://porfolio-segundo-ano.netlify.app/"><h2>Portfolio 2023</h2></a>
-            <a href="/" ><h2 style={{ color: isRouteActive('/') ? 'gray' : 'white' }}>Primeiro Trimestre 2024</h2></a>
-            <h2 style={{ color: isRouteActive('/segundo') ? 'gray' : 'white' }} onClick={segundo}>(Segundo Trimestre 2024)</h2>
-            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={terceiro}>Terceiro Trimestre 2024</h2>
-            <h2 style={{ color: isRouteActive('/trimestre') ? 'gray' : 'white' }} onClick={Ppe}>PPE</h2>
+            <a href="/" ><h2 style={{ color: isRouteActive('/') ? 'white' : 'grey' }} className={`${isRouteActive('/') ? 'underline underline-offset-4' : ''}`}>Primeiro Trimestre 2024</h2></a>
+            <h2 style={{ color: isRouteActive('/segundo') ? 'white' : 'grey' }} className={`${isRouteActive('/segundo') ? 'underline underline-offset-4' : ''}`} onClick={segundo}>Segundo Trimestre 2024</h2>
+            <h2 style={{ color: isRouteActive('/terceiro') ? 'white' : 'grey' }} className={`${isRouteActive('/terceiro') ? 'underline underline-offset-4' : ''}`} onClick={terceiro}>Terceiro Trimestre 2024</h2>
+            <h2 style={{ color: isRouteActive('/ppe') ? 'white' : 'grey' }} className={`${isRouteActive('/ppe') ? 'underline underline-offset-4' : ''}`} onClick={Ppe}>PPE</h2>
           </div>
           <Dialog>
             <DialogTrigger className='flex mr-3'>

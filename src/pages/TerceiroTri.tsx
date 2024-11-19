@@ -1,9 +1,10 @@
-function TerceiroTri(){
-    return(
-        <>
-                <h4>NÃO ESTÁ PRONTO NEM INICIADO AINDA</h4>
+import Home3 from "./components/home3"
 
+function TerceiroTri() {
+    return (
+        <>
+            <Home3 />
         </>
     )
 }
-export {TerceiroTri}
+export { TerceiroTri }
