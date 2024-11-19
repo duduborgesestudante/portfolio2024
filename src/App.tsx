@@ -26,6 +26,7 @@ import { Natureza3 } from "./pages/materias/natureza3"
 import { Matematica3 } from "./pages/materias/matematica3"
 import { Desi3 } from "./pages/materias/desi3"
 import { BancoDeDados3 } from "./pages/materias/db3"
+import { Testes3 } from "./pages/materias/testes3"
 
 
 const router = createBrowserRouter([
@@ -121,6 +122,10 @@ const router = createBrowserRouter([
   {
     path: '/ppe',
     element: <Ppe />,
+  },
+  {
+    path: '/testes3',
+    element: <Testes3 />,
   },
 
 

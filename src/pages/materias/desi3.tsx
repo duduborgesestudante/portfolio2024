@@ -28,15 +28,16 @@ function Desi3() {
                                 </p>
                             </div>
                         </a>
-                        <a className="a-beatddoneckles" target="_blank" href="https://api-github-nu.vercel.app/">
+                        <a className="a-beatddoneckles" target="_blank" href="https://drive.google.com/file/d/1u6zj1P7FIDy8G0__o15odfVs9cIW1c_8/view?usp=sharing">
                             <div className="grid-natureza">
-                                <h2>Use Navigate</h2>
-                                <img src={desi4} />
+                                <h2>Tarefa 02</h2>
+                                <img src={"https://www.appsyoda.com/blogimages/expressjs-nodejs.png"} />
                                 <p>
-                                    Aprendemos sobre a biblioteca React-Router-Dom para aplicar rotas e navegação entre paginas
+                                    Usamos nossos conhecimentos novos de express para realizar uma tarefa
                                 </p>
                             </div>
                         </a>
+
 
                     </div>
                 </section>

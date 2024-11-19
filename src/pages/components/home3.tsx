@@ -6,7 +6,7 @@ import { Carousel } from '@trendyol-js/react-carousel';
 import { GiCarpetBombing } from 'react-icons/gi';
 import { PiMathOperationsFill } from 'react-icons/pi';
 import { MdScience } from 'react-icons/md';
-import { GrSystem } from 'react-icons/gr';
+import { GrSystem, GrTestDesktop } from 'react-icons/gr';
 import { IoLanguage } from 'react-icons/io5';
 import { BiNetworkChart } from 'react-icons/bi';
 import { GoFileCode } from 'react-icons/go';
@@ -41,6 +41,9 @@ function Home3() {
     }
     const db3 = () => {
         irPara("/db3")
+    }
+    const testes3 = () => {
+        irPara("/testes3")
     }
 
 
@@ -246,7 +249,7 @@ function Home3() {
 
                             </div>
                         </div >
-
+                        {/* 
                         <div onClick={modelagem3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
 
@@ -254,18 +257,24 @@ function Home3() {
                                 <p>Modelagem de sistemas</p>
 
                             </div>
-                        </div >
+                        </div > */}
 
-                        <div onClick={manutencao3} className='card-materia '>
+                        {/* <div onClick={manutencao3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <GrSystem size={60} />
                                 <p>Implatação e manutenção de sistemas</p>
                             </div>
-                        </div >
+                        </div > */}
                         <div onClick={db3} className='card-materia '>
                             <div className='justify-center items-center flex text-center flex-col'>
                                 <FaDatabase color='purple' size={60} />
                                 <p>Banco de dados</p>
+                            </div>
+                        </div >
+                        <div onClick={testes3} className='card-materia '>
+                            <div className='justify-center items-center flex text-center flex-col'>
+                                <GrTestDesktop color='cyan' size={60} />
+                                <p>Testes de sistema</p>
                             </div>
                         </div >
                     </div>
